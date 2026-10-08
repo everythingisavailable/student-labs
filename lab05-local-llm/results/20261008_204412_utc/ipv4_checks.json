@@ -1,0 +1,50 @@
+{
+  "policy": "Strict dotted decimal; reject five-component tokens and leading zeros. Extra edge-case policy declared during review.",
+  "checks": [
+    {
+      "input": "IP 192.168.1.1",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "input": "255.255.255.255",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "input": "0.0.0.0",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "input": "нет адреса",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "input": "256.1.1.1",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "input": "1.2.3",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "input": "999.999.999.999",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "input": "1.2.3.4.5",
+      "expected": false,
+      "actual": true
+    },
+    {
+      "input": "01.2.3.4",
+      "expected": false,
+      "actual": true
+    }
+  ]
+}

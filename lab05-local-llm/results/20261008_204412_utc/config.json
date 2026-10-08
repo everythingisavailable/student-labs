@@ -1,0 +1,16 @@
+{
+  "model": "google/gemma-3n-e4b",
+  "base_url": "http://localhost:1234",
+  "context_length": 8192,
+  "temperature": 0.2,
+  "max_tokens": 900,
+  "benchmark_repeats": 5,
+  "temperatures": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "temperature_repeats": 3,
+  "timeout_s": 180,
+  "sample_interval_s": 0.5
+}

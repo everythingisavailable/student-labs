@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-08T20:44:18.377011+00:00",
+  "python": "3.12.14",
+  "requests": "2.34.2",
+  "psutil": "7.2.2",
+  "api_base": "http://localhost:1234",
+  "model": "google/gemma-3n-e4b",
+  "seed": null,
+  "retries": 0,
+  "scope": "system-wide resource measurements",
+  "api_listeners": [
+    {
+      "address": "127.0.0.1",
+      "port": 1234
+    }
+  ]
+}

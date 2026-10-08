@@ -1,0 +1,65 @@
+{
+  "total_calls": 25,
+  "errors": 0,
+  "first_request_after_explicit_load_s": 3.68717010000546,
+  "mean_repeats_2_to_5_s": 2.2294712499933667,
+  "temperature": [
+    {
+      "temperature": 0.0,
+      "n": 3,
+      "unique_answers": 2,
+      "mean_latency_s": 4.456672566666384
+    },
+    {
+      "temperature": 0.5,
+      "n": 3,
+      "unique_answers": 3,
+      "mean_latency_s": 4.188531366666818
+    },
+    {
+      "temperature": 1.0,
+      "n": 3,
+      "unique_answers": 3,
+      "mean_latency_s": 4.002300466663049
+    }
+  ],
+  "resources": {
+    "before_load": {
+      "utc": "2026-10-08T20:44:14.192402+00:00",
+      "cpu_percent": 48.6,
+      "ram_used_gib": 16.45199966430664,
+      "ram_available_gib": 14.335014343261719,
+      "ram_total_gib": 30.78701400756836,
+      "gpu_name": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 1811.0,
+      "gpu_percent": 8.0,
+      "gpu_measurement": "nvidia-smi system-wide"
+    },
+    "after_load": {
+      "utc": "2026-10-08T20:44:18.118827+00:00",
+      "cpu_percent": 55.7,
+      "ram_used_gib": 20.997779846191406,
+      "ram_available_gib": 9.789234161376953,
+      "ram_total_gib": 30.78701400756836,
+      "gpu_name": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 5043.0,
+      "gpu_percent": 8.0,
+      "gpu_measurement": "nvidia-smi system-wide"
+    },
+    "after_experiment": {
+      "utc": "2026-10-08T20:45:27.085667+00:00",
+      "cpu_percent": 26.7,
+      "ram_used_gib": 22.04227066040039,
+      "ram_available_gib": 8.744743347167969,
+      "ram_total_gib": 30.78701400756836,
+      "gpu_name": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 5152.0,
+      "gpu_percent": 0.0,
+      "gpu_measurement": "nvidia-smi system-wide"
+    }
+  },
+  "measurement_scope": "CPU/RAM and NVIDIA counters are system-wide, include other applications; first API request is after explicit load, not a cold load."
+}

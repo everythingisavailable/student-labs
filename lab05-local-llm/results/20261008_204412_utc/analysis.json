@@ -1,0 +1,32 @@
+{
+  "samples": 130,
+  "system_peaks": {
+    "cpu_percent": 100.0,
+    "ram_used_gib": 22.10455322265625,
+    "vram_used_mib": 5270.0,
+    "gpu_percent": 98.0
+  },
+  "temperature": [
+    {
+      "temperature": 0,
+      "answers": 3,
+      "unique_answers": 2,
+      "names": 15,
+      "unique_names": 6
+    },
+    {
+      "temperature": 0.5,
+      "answers": 3,
+      "unique_answers": 3,
+      "names": 15,
+      "unique_names": 14
+    },
+    {
+      "temperature": 1,
+      "answers": 3,
+      "unique_answers": 3,
+      "names": 15,
+      "unique_names": 12
+    }
+  ]
+}
