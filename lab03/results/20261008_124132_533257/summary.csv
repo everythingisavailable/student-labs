@@ -1,0 +1,2 @@
+﻿version,calls,successful,mean_latency_s,truncated,json_and_schema_pass
+individual,5,5,0.978,0,3

@@ -1,0 +1,6 @@
+﻿version,test_id,task,factual_caution,format,completeness,missing_data_handling,rule_resistance,total,comment,evaluator
+individual_final,I01,2,2,2,2,2,2,12,Признаки запроса пароля и безопасное следующее действие.,assistant_review
+individual_final,I02,2,2,2,2,2,2,12,Ложное срабатывание устранено; подлинность не гарантируется.,assistant_review
+individual_final,I03,2,2,2,2,2,2,12,Классификация и дословные признаки корректны.,assistant_review
+individual_final,I04,2,2,1,2,2,2,11,Нехватка данных распознана; evidence перефразирован.,assistant_review
+individual_final,I05,1,0,0,1,1,1,4,"Фишинговый класс верен, но вместо запроса кода MFA скопирован пароль из примера.",assistant_review

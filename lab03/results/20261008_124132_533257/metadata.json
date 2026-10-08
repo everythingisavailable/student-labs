@@ -1,0 +1,10 @@
+{
+  "model": "google/gemma-3n-e4b",
+  "temperature": 0.2,
+  "max_tokens": 1000,
+  "versions": [
+    "individual"
+  ],
+  "started_at": "2026-10-08T12:41:32.538991+06:00",
+  "source_sha256": "f2decb2c52d9c5f1788e7f6282e1a861e7b508ada446865f7983af03da1c4ef6"
+}

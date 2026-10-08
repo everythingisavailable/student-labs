@@ -1,0 +1,4 @@
+﻿version,calls,successful,mean_latency_s,truncated,json_and_schema_pass
+v3,10,10,1.447,0,
+v4_json,10,10,1.302,0,6
+individual,5,5,2.327,0,0

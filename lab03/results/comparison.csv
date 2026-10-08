@@ -1,0 +1,7 @@
+﻿version,calls,score,maximum,mean_score,mean_latency_s,mean_output_tokens,json_parse_ok,full_validation_ok
+v1,10,89,120,8.9,9.34,671.6,,
+v2,10,87,120,8.7,2.463,165.3,,
+v3,10,105,120,10.5,1.447,100.8,,
+v4_json,10,105,120,10.5,1.302,88,7,6
+individual_initial,5,36,60,7.2,2.327,164,0,0
+individual_final,5,51,60,10.2,0.978,65,5,3
