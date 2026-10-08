@@ -1,0 +1,75 @@
+{
+  "started_utc": "2026-10-08T13:11:56.652454+00:00",
+  "python": "3.12.14",
+  "system": "Windows",
+  "seed": null,
+  "order": "per-example A then B, then repeats 1..3 A then B",
+  "retries": 0,
+  "input_sha256": "d84dbc1d1e2193a0a70bef79b4d282f98a00d22fc71634571fec119ac65ae123",
+  "cost": "not estimated; local compute and electricity not priced",
+  "models": {
+    "data": [
+      {
+        "id": "google/gemma-3n-e4b",
+        "object": "model",
+        "type": "llm",
+        "publisher": "google",
+        "arch": "gemma3n",
+        "compatibility_type": "gguf",
+        "quantization": "Q4_K_M",
+        "state": "loaded",
+        "max_context_length": 32768,
+        "loaded_context_length": 8192
+      },
+      {
+        "id": "gemma-4-12b-coder-fable5-composer2.5-v1",
+        "object": "model",
+        "type": "llm",
+        "publisher": "yuxinlu1",
+        "arch": "gemma4",
+        "compatibility_type": "gguf",
+        "quantization": "Q3_K_M",
+        "state": "not-loaded",
+        "max_context_length": 262144,
+        "capabilities": [
+          "tool_use"
+        ]
+      },
+      {
+        "id": "qwen3.6-35b-a3b-uncensored-hauhaucs-aggressive",
+        "object": "model",
+        "type": "vlm",
+        "publisher": "HauhauCS",
+        "arch": "qwen35moe",
+        "compatibility_type": "gguf",
+        "quantization": "Q4_K_M",
+        "state": "not-loaded",
+        "max_context_length": 262144,
+        "capabilities": [
+          "tool_use"
+        ]
+      },
+      {
+        "id": "text-embedding-nomic-embed-text-v1.5",
+        "object": "model",
+        "type": "embeddings",
+        "publisher": "nomic-ai",
+        "arch": "nomic-bert",
+        "compatibility_type": "gguf",
+        "quantization": "Q4_K_M",
+        "state": "not-loaded",
+        "max_context_length": 2048
+      }
+    ],
+    "object": "list"
+  },
+  "input_sha256_lf": "fca941e28ca706fd777bbec6a1d452d8bab486e67bdf7e582efe443a14aeb4de",
+  "line_endings": "Original local byte hashes and portable LF hashes are both retained; Git can normalize line endings.",
+  "completed_utc": "2026-10-08T13:44:47.589327+00:00",
+  "classifier_calls": 90,
+  "judge_calls": 20,
+  "judge_api": "/v1/chat/completions",
+  "judge_reasoning": "server default; reasoning text returned by API",
+  "human_review_completed": false,
+  "word_visual_qa": "skipped at explicit user request"
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "version": "A",
+    "id": "T21",
+    "n": 4,
+    "predictions": [
+      "suspicious",
+      "suspicious",
+      "suspicious",
+      "suspicious"
+    ],
+    "distinct_labels": 1,
+    "modal_share": 1.0,
+    "format_compliance": 1.0,
+    "unique_raw_answers": 4
+  },
+  {
+    "version": "A",
+    "id": "T23",
+    "n": 4,
+    "predictions": [
+      "normal",
+      "normal",
+      "normal",
+      "normal"
+    ],
+    "distinct_labels": 1,
+    "modal_share": 1.0,
+    "format_compliance": 1.0,
+    "unique_raw_answers": 4
+  },
+  {
+    "version": "A",
+    "id": "T24",
+    "n": 4,
+    "predictions": [
+      "suspicious",
+      "suspicious",
+      "suspicious",
+      "suspicious"
+    ],
+    "distinct_labels": 1,
+    "modal_share": 1.0,
+    "format_compliance": 1.0,
+    "unique_raw_answers": 4
+  },
+  {
+    "version": "A",
+    "id": "T29",
+    "n": 4,
+    "predictions": [
+      "suspicious",
+      "suspicious",
+      "suspicious",
+      "suspicious"
+    ],
+    "distinct_labels": 1,
+    "modal_share": 1.0,
+    "format_compliance": 1.0,
+    "unique_raw_answers": 4
+  },
+  {
+    "version": "A",
+    "id": "T30",
+    "n": 4,
+    "predictions": [
+      "suspicious",
+      "suspicious",
+      "suspicious",
+      "suspicious"
+    ],
+    "distinct_labels": 1,
+    "modal_share": 1.0,
+    "format_compliance": 1.0,
+    "unique_raw_answers": 4
+  },
+  {
+    "version": "B",
+    "id": "T21",
+    "n": 4,
+    "predictions": [
+      "parse_error",
+      "parse_error",
+      "parse_error",
+      "parse_error"
+    ],
+    "distinct_labels": 1,
+    "modal_share": 1.0,
+    "format_compliance": 0.0,
+    "unique_raw_answers": 1
+  },
+  {
+    "version": "B",
+    "id": "T23",
+    "n": 4,
+    "predictions": [
+      "parse_error",
+      "parse_error",
+      "parse_error",
+      "parse_error"
+    ],
+    "distinct_labels": 1,
+    "modal_share": 1.0,
+    "format_compliance": 0.0,
+    "unique_raw_answers": 2
+  },
+  {
+    "version": "B",
+    "id": "T24",
+    "n": 4,
+    "predictions": [
+      "parse_error",
+      "parse_error",
+      "parse_error",
+      "parse_error"
+    ],
+    "distinct_labels": 1,
+    "modal_share": 1.0,
+    "format_compliance": 0.0,
+    "unique_raw_answers": 4
+  },
+  {
+    "version": "B",
+    "id": "T29",
+    "n": 4,
+    "predictions": [
+      "suspicious",
+      "suspicious",
+      "suspicious",
+      "suspicious"
+    ],
+    "distinct_labels": 1,
+    "modal_share": 1.0,
+    "format_compliance": 1.0,
+    "unique_raw_answers": 1
+  },
+  {
+    "version": "B",
+    "id": "T30",
+    "n": 4,
+    "predictions": [
+      "abstain",
+      "parse_error",
+      "parse_error",
+      "parse_error"
+    ],
+    "distinct_labels": 2,
+    "modal_share": 0.75,
+    "format_compliance": 0.25,
+    "unique_raw_answers": 4
+  }
+]

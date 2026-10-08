@@ -1,0 +1,13 @@
+{
+  "note": "Initial SHA256 values describe original local bytes. Git may normalize CRLF/LF. These hashes normalize only line endings to LF; prompt text is unchanged.",
+  "files": {
+    "prompt_v2.txt": {
+      "source": "lab03/prompts/prompt_v2.txt",
+      "sha256_lf": "726150a2e843d3b458470ca9dbedafa765ea8c82163f4f70aa3739ab89397268"
+    },
+    "prompt_v4_json.txt": {
+      "source": "lab03/prompts/prompt_v4_json.txt",
+      "sha256_lf": "eaa6ac950205d9a5fac762c0b29d5c49b1d401bab67eec8d652381992507f66f"
+    }
+  }
+}

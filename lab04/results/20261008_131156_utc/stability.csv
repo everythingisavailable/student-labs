@@ -1,0 +1,11 @@
+﻿version,id,n,predictions,distinct_labels,modal_share,format_compliance,unique_raw_answers
+A,T21,4,"[""suspicious"", ""suspicious"", ""suspicious"", ""suspicious""]",1,1.0,1.0,4
+A,T23,4,"[""normal"", ""normal"", ""normal"", ""normal""]",1,1.0,1.0,4
+A,T24,4,"[""suspicious"", ""suspicious"", ""suspicious"", ""suspicious""]",1,1.0,1.0,4
+A,T29,4,"[""suspicious"", ""suspicious"", ""suspicious"", ""suspicious""]",1,1.0,1.0,4
+A,T30,4,"[""suspicious"", ""suspicious"", ""suspicious"", ""suspicious""]",1,1.0,1.0,4
+B,T21,4,"[""parse_error"", ""parse_error"", ""parse_error"", ""parse_error""]",1,1.0,0.0,1
+B,T23,4,"[""parse_error"", ""parse_error"", ""parse_error"", ""parse_error""]",1,1.0,0.0,2
+B,T24,4,"[""parse_error"", ""parse_error"", ""parse_error"", ""parse_error""]",1,1.0,0.0,4
+B,T29,4,"[""suspicious"", ""suspicious"", ""suspicious"", ""suspicious""]",1,1.0,1.0,1
+B,T30,4,"[""abstain"", ""parse_error"", ""parse_error"", ""parse_error""]",2,0.75,0.25,4

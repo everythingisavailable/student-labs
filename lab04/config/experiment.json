@@ -1,0 +1,43 @@
+{
+  "model": "google/gemma-3n-e4b",
+  "judge_model": "gemma-4-12b-coder-fable5-composer2.5-v1",
+  "temperature": 0.2,
+  "max_tokens": 700,
+  "judge_temperature": 0,
+  "judge_max_tokens": 1600,
+  "timeout_s": 240,
+  "primary_metric": "F1 suspicious",
+  "review_ids": [
+    "T01",
+    "T02",
+    "T11",
+    "T12",
+    "T21",
+    "T22",
+    "T23",
+    "T24",
+    "T29",
+    "T30"
+  ],
+  "repeat_ids": [
+    "T21",
+    "T23",
+    "T24",
+    "T29",
+    "T30"
+  ],
+  "additional_repeats": 3,
+  "seed": null,
+  "versions": {
+    "A": "prompt_v2.txt",
+    "B": "prompt_v4_json.txt"
+  },
+  "label_mapping": {
+    "normal": "normal",
+    "authentication_anomaly": "suspicious",
+    "phishing": "suspicious",
+    "malware": "suspicious",
+    "data_exposure": "suspicious",
+    "unknown": "abstain"
+  }
+}

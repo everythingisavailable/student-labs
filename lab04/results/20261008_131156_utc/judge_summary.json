@@ -1,0 +1,9 @@
+{
+  "n_judge_calls": 20,
+  "strict_valid": 0,
+  "usable_after_explicit_fence_normalization": 20,
+  "mean_absolute_total_difference": 2.6,
+  "criterion_agreement": 0.4125,
+  "criterion_mae": 0.7,
+  "hallucination_agreement": 0.9
+}

@@ -10,3 +10,6 @@ __pycache__/
 *.log
 .DS_Store
 Thumbs.db
+~$*
+# Local preview opened during document preparation; final Word report has a separate name.
+lab04/results/report.docx

@@ -1,0 +1,72 @@
+{
+  "A": {
+    "n": 30,
+    "accuracy": 0.7666666666666667,
+    "precision": 0.6818181818181818,
+    "recall": 1.0,
+    "f1": 0.8108108108108109,
+    "format_compliance": 1.0,
+    "json_compliance": 0.0,
+    "abstain": 0,
+    "parse_errors": 0,
+    "tp": 15,
+    "fp": 7,
+    "missed_positive": 0,
+    "mean_latency_s": 2.4035731033339593,
+    "median_latency_s": 2.378995600003691,
+    "p95_latency_s": 2.8996597050027044,
+    "input_tokens": 13217,
+    "output_tokens": 5065,
+    "usage_available": 30,
+    "cost": null,
+    "confusion_matrix": {
+      "normal": {
+        "normal": 8,
+        "suspicious": 7,
+        "abstain": 0,
+        "parse_error": 0
+      },
+      "suspicious": {
+        "normal": 0,
+        "suspicious": 15,
+        "abstain": 0,
+        "parse_error": 0
+      }
+    }
+  },
+  "B": {
+    "n": 30,
+    "accuracy": 0.26666666666666666,
+    "precision": 0.75,
+    "recall": 0.2,
+    "f1": 0.31578947368421056,
+    "format_compliance": 0.36666666666666664,
+    "json_compliance": 0.36666666666666664,
+    "abstain": 2,
+    "parse_errors": 19,
+    "tp": 3,
+    "fp": 1,
+    "missed_positive": 12,
+    "mean_latency_s": 1.6648195533324421,
+    "median_latency_s": 1.6114341499996954,
+    "p95_latency_s": 1.9620915249943205,
+    "input_tokens": 32447,
+    "output_tokens": 2803,
+    "usage_available": 30,
+    "cost": null,
+    "confusion_matrix": {
+      "normal": {
+        "normal": 5,
+        "suspicious": 1,
+        "abstain": 1,
+        "parse_error": 8
+      },
+      "suspicious": {
+        "normal": 0,
+        "suspicious": 3,
+        "abstain": 1,
+        "parse_error": 11
+      }
+    }
+  }
+}

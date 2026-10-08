@@ -1,0 +1,7 @@
+﻿version,difficulty,n,correct,false_positive,abstain,format_errors
+A,easy,10,8,2,0,0
+A,hard,10,8,2,0,0
+A,boundary,10,7,3,0,0
+B,easy,10,4,1,0,5
+B,hard,10,1,0,1,8
+B,boundary,10,3,0,1,6

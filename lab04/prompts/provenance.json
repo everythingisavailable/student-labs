@@ -1,0 +1,12 @@
+{
+  "prompt_v2.txt": {
+    "source": "lab03/prompts/prompt_v2.txt",
+    "sha256": "19eecbce46bc2e75faac859261375dc91fad4bc2dc2329971dd416802919c993",
+    "modified": false
+  },
+  "prompt_v4_json.txt": {
+    "source": "lab03/prompts/prompt_v4_json.txt",
+    "sha256": "91832743449361350543138c46786d5fc1886e76e613a5178adc16823baf12d2",
+    "modified": false
+  }
+}
