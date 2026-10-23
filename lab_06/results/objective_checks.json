@@ -1,0 +1,566 @@
+[
+  {
+    "backend": "local",
+    "test_id": "t01",
+    "repeat": 1,
+    "checks": {
+      "word_count": 70
+    }
+  },
+  {
+    "backend": "local",
+    "test_id": "t02",
+    "repeat": 1,
+    "checks": {
+      "numbered_points": 5
+    }
+  },
+  {
+    "backend": "local",
+    "test_id": "t03",
+    "repeat": 1,
+    "checks": {}
+  },
+  {
+    "backend": "local",
+    "test_id": "t04",
+    "repeat": 1,
+    "checks": {
+      "strict_json": false
+    }
+  },
+  {
+    "backend": "local",
+    "test_id": "t05",
+    "repeat": 1,
+    "checks": {
+      "code_cases": [
+        {
+          "input": "",
+          "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "pass": true
+        },
+        {
+          "input": "abc",
+          "expected": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+          "actual": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+          "pass": true
+        },
+        {
+          "input": "Привет",
+          "expected": "dd679c0b9fd408a04148aa7d30c9df393f67b7227f65693fffe0ed6d0f0ade59",
+          "actual": "dd679c0b9fd408a04148aa7d30c9df393f67b7227f65693fffe0ed6d0f0ade59",
+          "pass": true
+        }
+      ]
+    }
+  },
+  {
+    "backend": "local",
+    "test_id": "t06",
+    "repeat": 1,
+    "checks": {
+      "sentence_count": 5
+    }
+  },
+  {
+    "backend": "local",
+    "test_id": "t07",
+    "repeat": 1,
+    "checks": {
+      "numbered_points": 3
+    }
+  },
+  {
+    "backend": "local",
+    "test_id": "t08",
+    "repeat": 1,
+    "checks": {}
+  },
+  {
+    "backend": "local",
+    "test_id": "t09",
+    "repeat": 1,
+    "checks": {
+      "strict_json": false
+    }
+  },
+  {
+    "backend": "local",
+    "test_id": "t10",
+    "repeat": 1,
+    "checks": {
+      "code_cases": [
+        {
+          "input": "IP 192.168.1.1",
+          "expected": true,
+          "actual": true,
+          "pass": true
+        },
+        {
+          "input": "0.0.0.0",
+          "expected": true,
+          "actual": true,
+          "pass": true
+        },
+        {
+          "input": "255.255.255.255",
+          "expected": true,
+          "actual": true,
+          "pass": true
+        },
+        {
+          "input": "text without address",
+          "expected": false,
+          "actual": false,
+          "pass": true
+        },
+        {
+          "input": "256.2.3.4",
+          "expected": false,
+          "actual": false,
+          "pass": true
+        },
+        {
+          "input": "1.2.3",
+          "expected": false,
+          "actual": false,
+          "pass": true
+        },
+        {
+          "input": "1.2.3.4.5",
+          "expected": false,
+          "actual": true,
+          "pass": false
+        },
+        {
+          "input": "999.1.2.3.4",
+          "expected": false,
+          "actual": true,
+          "pass": false
+        },
+        {
+          "input": "x1.2.3.4y",
+          "expected": false,
+          "actual": false,
+          "pass": true
+        }
+      ]
+    }
+  },
+  {
+    "backend": "local",
+    "test_id": "t11",
+    "repeat": 1,
+    "checks": {
+      "exact_match": true
+    }
+  },
+  {
+    "backend": "local",
+    "test_id": "t12",
+    "repeat": 1,
+    "checks": {
+      "exact_match": true
+    }
+  },
+  {
+    "backend": "local",
+    "test_id": "t13",
+    "repeat": 1,
+    "checks": {
+      "strict_json": false,
+      "values_after_optional_fence_removal": true
+    }
+  },
+  {
+    "backend": "local",
+    "test_id": "t14",
+    "repeat": 1,
+    "checks": {
+      "strict_json": false,
+      "values_after_optional_fence_removal": false
+    }
+  },
+  {
+    "backend": "local",
+    "test_id": "t15",
+    "repeat": 1,
+    "checks": {
+      "exact_match": true
+    }
+  },
+  {
+    "backend": "local",
+    "test_id": "t16",
+    "repeat": 1,
+    "checks": {}
+  },
+  {
+    "backend": "local",
+    "test_id": "t16",
+    "repeat": 2,
+    "checks": {}
+  },
+  {
+    "backend": "local",
+    "test_id": "t16",
+    "repeat": 3,
+    "checks": {}
+  },
+  {
+    "backend": "local",
+    "test_id": "t17",
+    "repeat": 1,
+    "checks": {}
+  },
+  {
+    "backend": "local",
+    "test_id": "t17",
+    "repeat": 2,
+    "checks": {}
+  },
+  {
+    "backend": "local",
+    "test_id": "t17",
+    "repeat": 3,
+    "checks": {}
+  },
+  {
+    "backend": "local",
+    "test_id": "t18",
+    "repeat": 1,
+    "checks": {}
+  },
+  {
+    "backend": "local",
+    "test_id": "t18",
+    "repeat": 2,
+    "checks": {}
+  },
+  {
+    "backend": "local",
+    "test_id": "t18",
+    "repeat": 3,
+    "checks": {}
+  },
+  {
+    "backend": "local",
+    "test_id": "t19",
+    "repeat": 1,
+    "checks": {}
+  },
+  {
+    "backend": "local",
+    "test_id": "t19",
+    "repeat": 2,
+    "checks": {}
+  },
+  {
+    "backend": "local",
+    "test_id": "t19",
+    "repeat": 3,
+    "checks": {}
+  },
+  {
+    "backend": "local",
+    "test_id": "t20",
+    "repeat": 1,
+    "checks": {}
+  },
+  {
+    "backend": "local",
+    "test_id": "t20",
+    "repeat": 2,
+    "checks": {}
+  },
+  {
+    "backend": "local",
+    "test_id": "t20",
+    "repeat": 3,
+    "checks": {}
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t01",
+    "repeat": 1,
+    "checks": {
+      "word_count": 62
+    }
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t02",
+    "repeat": 1,
+    "checks": {
+      "numbered_points": 5
+    }
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t03",
+    "repeat": 1,
+    "checks": {}
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t04",
+    "repeat": 1,
+    "checks": {
+      "strict_json": true
+    }
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t05",
+    "repeat": 1,
+    "checks": {
+      "code_cases": [
+        {
+          "input": "",
+          "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "pass": true
+        },
+        {
+          "input": "abc",
+          "expected": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+          "actual": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+          "pass": true
+        },
+        {
+          "input": "Привет",
+          "expected": "dd679c0b9fd408a04148aa7d30c9df393f67b7227f65693fffe0ed6d0f0ade59",
+          "actual": "dd679c0b9fd408a04148aa7d30c9df393f67b7227f65693fffe0ed6d0f0ade59",
+          "pass": true
+        }
+      ]
+    }
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t06",
+    "repeat": 1,
+    "checks": {
+      "sentence_count": 4
+    }
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t07",
+    "repeat": 1,
+    "checks": {
+      "numbered_points": 3
+    }
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t08",
+    "repeat": 1,
+    "checks": {}
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t09",
+    "repeat": 1,
+    "checks": {
+      "strict_json": false
+    }
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t10",
+    "repeat": 1,
+    "checks": {
+      "code_cases": [
+        {
+          "input": "IP 192.168.1.1",
+          "expected": true,
+          "actual": true,
+          "pass": true
+        },
+        {
+          "input": "0.0.0.0",
+          "expected": true,
+          "actual": true,
+          "pass": true
+        },
+        {
+          "input": "255.255.255.255",
+          "expected": true,
+          "actual": true,
+          "pass": true
+        },
+        {
+          "input": "text without address",
+          "expected": false,
+          "actual": false,
+          "pass": true
+        },
+        {
+          "input": "256.2.3.4",
+          "expected": false,
+          "actual": false,
+          "pass": true
+        },
+        {
+          "input": "1.2.3",
+          "expected": false,
+          "actual": false,
+          "pass": true
+        },
+        {
+          "input": "1.2.3.4.5",
+          "expected": false,
+          "actual": true,
+          "pass": false
+        },
+        {
+          "input": "999.1.2.3.4",
+          "expected": false,
+          "actual": true,
+          "pass": false
+        },
+        {
+          "input": "x1.2.3.4y",
+          "expected": false,
+          "actual": false,
+          "pass": true
+        }
+      ]
+    }
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t11",
+    "repeat": 1,
+    "checks": {
+      "exact_match": true
+    }
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t12",
+    "repeat": 1,
+    "checks": {
+      "exact_match": true
+    }
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t13",
+    "repeat": 1,
+    "checks": {
+      "strict_json": false,
+      "values_after_optional_fence_removal": true
+    }
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t14",
+    "repeat": 1,
+    "checks": {
+      "strict_json": false,
+      "values_after_optional_fence_removal": true
+    }
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t15",
+    "repeat": 1,
+    "checks": {
+      "exact_match": true
+    }
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t16",
+    "repeat": 1,
+    "checks": {}
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t16",
+    "repeat": 2,
+    "checks": {}
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t16",
+    "repeat": 3,
+    "checks": {}
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t17",
+    "repeat": 1,
+    "checks": {}
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t17",
+    "repeat": 2,
+    "checks": {}
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t17",
+    "repeat": 3,
+    "checks": {}
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t18",
+    "repeat": 1,
+    "checks": {}
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t18",
+    "repeat": 2,
+    "checks": {}
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t18",
+    "repeat": 3,
+    "checks": {}
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t19",
+    "repeat": 1,
+    "checks": {}
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t19",
+    "repeat": 2,
+    "checks": {}
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t19",
+    "repeat": 3,
+    "checks": {}
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t20",
+    "repeat": 1,
+    "checks": {}
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t20",
+    "repeat": 2,
+    "checks": {}
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t20",
+    "repeat": 3,
+    "checks": {}
+  }
+]

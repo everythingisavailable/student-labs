@@ -1,0 +1,815 @@
+{
+  "backend": "local",
+  "python": "3.12.14",
+  "os": "Windows-11-10.0.26200-SP0",
+  "logical_processors": 8,
+  "physical_cores": 8,
+  "before": {
+    "utc": "2026-10-23T16:39:27.462899+00:00",
+    "cpu_percent": 65.4,
+    "ram_used_gib": 26.54058074951172,
+    "ram_total_gib": 27.28701400756836,
+    "gpu": "NVIDIA GeForce RTX 5060 Ti",
+    "vram_total_mib": 8151.0,
+    "vram_used_mib": 7545.0,
+    "gpu_percent": 97.0
+  },
+  "samples": [
+    {
+      "utc": "2026-10-23T16:39:27.757640+00:00",
+      "cpu_percent": 91.4,
+      "ram_used_gib": 26.53960418701172,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7545.0,
+      "gpu_percent": 97.0
+    },
+    {
+      "utc": "2026-10-23T16:39:28.856509+00:00",
+      "cpu_percent": 84.6,
+      "ram_used_gib": 26.58331298828125,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7545.0,
+      "gpu_percent": 96.0
+    },
+    {
+      "utc": "2026-10-23T16:39:29.964315+00:00",
+      "cpu_percent": 84.8,
+      "ram_used_gib": 26.593303680419922,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7545.0,
+      "gpu_percent": 99.0
+    },
+    {
+      "utc": "2026-10-23T16:39:31.058901+00:00",
+      "cpu_percent": 89.3,
+      "ram_used_gib": 26.571395874023438,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7545.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:39:32.155826+00:00",
+      "cpu_percent": 83.8,
+      "ram_used_gib": 26.577056884765625,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7545.0,
+      "gpu_percent": 99.0
+    },
+    {
+      "utc": "2026-10-23T16:39:33.238592+00:00",
+      "cpu_percent": 82.9,
+      "ram_used_gib": 26.57497787475586,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7534.0,
+      "gpu_percent": 99.0
+    },
+    {
+      "utc": "2026-10-23T16:39:34.349555+00:00",
+      "cpu_percent": 93.5,
+      "ram_used_gib": 26.640758514404297,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7551.0,
+      "gpu_percent": 99.0
+    },
+    {
+      "utc": "2026-10-23T16:39:35.463979+00:00",
+      "cpu_percent": 84.4,
+      "ram_used_gib": 26.63536834716797,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7552.0,
+      "gpu_percent": 99.0
+    },
+    {
+      "utc": "2026-10-23T16:39:36.558097+00:00",
+      "cpu_percent": 92.5,
+      "ram_used_gib": 26.633190155029297,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7578.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:39:37.653399+00:00",
+      "cpu_percent": 74.1,
+      "ram_used_gib": 26.631370544433594,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7578.0,
+      "gpu_percent": 97.0
+    },
+    {
+      "utc": "2026-10-23T16:39:38.746520+00:00",
+      "cpu_percent": 98.1,
+      "ram_used_gib": 26.58130645751953,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7565.0,
+      "gpu_percent": 97.0
+    },
+    {
+      "utc": "2026-10-23T16:39:39.844758+00:00",
+      "cpu_percent": 85.8,
+      "ram_used_gib": 26.50262451171875,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7560.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:39:40.940188+00:00",
+      "cpu_percent": 85.0,
+      "ram_used_gib": 26.49341583251953,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7563.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:39:42.036029+00:00",
+      "cpu_percent": 90.8,
+      "ram_used_gib": 26.511516571044922,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7558.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:39:43.132777+00:00",
+      "cpu_percent": 92.4,
+      "ram_used_gib": 26.471832275390625,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7566.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:39:44.211706+00:00",
+      "cpu_percent": 92.5,
+      "ram_used_gib": 26.498069763183594,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7566.0,
+      "gpu_percent": 99.0
+    },
+    {
+      "utc": "2026-10-23T16:39:45.321579+00:00",
+      "cpu_percent": 95.4,
+      "ram_used_gib": 26.505550384521484,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7566.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:39:46.417538+00:00",
+      "cpu_percent": 100.0,
+      "ram_used_gib": 26.52267837524414,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7580.0,
+      "gpu_percent": 81.0
+    },
+    {
+      "utc": "2026-10-23T16:39:47.543863+00:00",
+      "cpu_percent": 94.5,
+      "ram_used_gib": 26.528141021728516,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7583.0,
+      "gpu_percent": 99.0
+    },
+    {
+      "utc": "2026-10-23T16:39:48.624499+00:00",
+      "cpu_percent": 92.1,
+      "ram_used_gib": 26.531112670898438,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7582.0,
+      "gpu_percent": 99.0
+    },
+    {
+      "utc": "2026-10-23T16:39:49.719499+00:00",
+      "cpu_percent": 70.9,
+      "ram_used_gib": 26.53510284423828,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7577.0,
+      "gpu_percent": 95.0
+    },
+    {
+      "utc": "2026-10-23T16:39:50.816918+00:00",
+      "cpu_percent": 93.5,
+      "ram_used_gib": 26.515167236328125,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7577.0,
+      "gpu_percent": 99.0
+    },
+    {
+      "utc": "2026-10-23T16:39:51.909920+00:00",
+      "cpu_percent": 85.8,
+      "ram_used_gib": 26.52289581298828,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7577.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:39:52.989675+00:00",
+      "cpu_percent": 88.0,
+      "ram_used_gib": 26.44815444946289,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7577.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:39:54.084758+00:00",
+      "cpu_percent": 86.1,
+      "ram_used_gib": 26.450153350830078,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7577.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:39:55.164070+00:00",
+      "cpu_percent": 88.8,
+      "ram_used_gib": 26.47658920288086,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7565.0,
+      "gpu_percent": 95.0
+    },
+    {
+      "utc": "2026-10-23T16:39:56.262502+00:00",
+      "cpu_percent": 86.8,
+      "ram_used_gib": 26.475624084472656,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7564.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:39:57.358295+00:00",
+      "cpu_percent": 81.4,
+      "ram_used_gib": 26.50713348388672,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7562.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:39:58.454616+00:00",
+      "cpu_percent": 84.9,
+      "ram_used_gib": 26.480060577392578,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7562.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:39:59.537024+00:00",
+      "cpu_percent": 98.1,
+      "ram_used_gib": 26.500202178955078,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7562.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:40:00.632945+00:00",
+      "cpu_percent": 94.4,
+      "ram_used_gib": 26.510509490966797,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7575.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:40:01.730874+00:00",
+      "cpu_percent": 89.5,
+      "ram_used_gib": 26.492813110351562,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7591.0,
+      "gpu_percent": 99.0
+    },
+    {
+      "utc": "2026-10-23T16:40:02.812115+00:00",
+      "cpu_percent": 78.0,
+      "ram_used_gib": 26.541465759277344,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7601.0,
+      "gpu_percent": 96.0
+    },
+    {
+      "utc": "2026-10-23T16:40:03.910112+00:00",
+      "cpu_percent": 90.7,
+      "ram_used_gib": 26.550167083740234,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7602.0,
+      "gpu_percent": 99.0
+    },
+    {
+      "utc": "2026-10-23T16:40:05.014598+00:00",
+      "cpu_percent": 90.1,
+      "ram_used_gib": 26.557540893554688,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7607.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:40:06.115307+00:00",
+      "cpu_percent": 100.0,
+      "ram_used_gib": 26.332313537597656,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7604.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:40:07.213181+00:00",
+      "cpu_percent": 77.6,
+      "ram_used_gib": 26.214534759521484,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7600.0,
+      "gpu_percent": 99.0
+    },
+    {
+      "utc": "2026-10-23T16:40:08.306905+00:00",
+      "cpu_percent": 88.9,
+      "ram_used_gib": 26.217967987060547,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7598.0,
+      "gpu_percent": 99.0
+    },
+    {
+      "utc": "2026-10-23T16:40:09.398844+00:00",
+      "cpu_percent": 83.0,
+      "ram_used_gib": 26.157329559326172,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7598.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:40:10.482204+00:00",
+      "cpu_percent": 91.9,
+      "ram_used_gib": 26.145095825195312,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7598.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:40:11.558660+00:00",
+      "cpu_percent": 74.8,
+      "ram_used_gib": 26.145008087158203,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7598.0,
+      "gpu_percent": 97.0
+    },
+    {
+      "utc": "2026-10-23T16:40:12.634970+00:00",
+      "cpu_percent": 98.1,
+      "ram_used_gib": 26.154266357421875,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7599.0,
+      "gpu_percent": 99.0
+    },
+    {
+      "utc": "2026-10-23T16:40:13.745625+00:00",
+      "cpu_percent": 90.5,
+      "ram_used_gib": 26.212635040283203,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7591.0,
+      "gpu_percent": 99.0
+    },
+    {
+      "utc": "2026-10-23T16:40:14.826139+00:00",
+      "cpu_percent": 93.0,
+      "ram_used_gib": 26.327468872070312,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7591.0,
+      "gpu_percent": 99.0
+    },
+    {
+      "utc": "2026-10-23T16:40:15.930034+00:00",
+      "cpu_percent": 88.2,
+      "ram_used_gib": 26.23210906982422,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7591.0,
+      "gpu_percent": 96.0
+    },
+    {
+      "utc": "2026-10-23T16:40:17.019461+00:00",
+      "cpu_percent": 87.6,
+      "ram_used_gib": 26.09585952758789,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7591.0,
+      "gpu_percent": 99.0
+    },
+    {
+      "utc": "2026-10-23T16:40:18.114661+00:00",
+      "cpu_percent": 84.1,
+      "ram_used_gib": 26.107147216796875,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7598.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:40:19.196498+00:00",
+      "cpu_percent": 80.2,
+      "ram_used_gib": 26.09813690185547,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7599.0,
+      "gpu_percent": 99.0
+    },
+    {
+      "utc": "2026-10-23T16:40:20.293854+00:00",
+      "cpu_percent": 81.9,
+      "ram_used_gib": 26.1011962890625,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7603.0,
+      "gpu_percent": 95.0
+    },
+    {
+      "utc": "2026-10-23T16:40:21.387946+00:00",
+      "cpu_percent": 95.6,
+      "ram_used_gib": 26.14258575439453,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7599.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:40:22.488251+00:00",
+      "cpu_percent": 70.2,
+      "ram_used_gib": 26.106578826904297,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7599.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:40:23.583612+00:00",
+      "cpu_percent": 79.6,
+      "ram_used_gib": 26.14409637451172,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7598.0,
+      "gpu_percent": 96.0
+    },
+    {
+      "utc": "2026-10-23T16:40:24.693621+00:00",
+      "cpu_percent": 87.9,
+      "ram_used_gib": 25.999286651611328,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7598.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:40:25.783496+00:00",
+      "cpu_percent": 56.5,
+      "ram_used_gib": 26.09951400756836,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7590.0,
+      "gpu_percent": 23.0
+    },
+    {
+      "utc": "2026-10-23T16:40:27.110799+00:00",
+      "cpu_percent": 100.0,
+      "ram_used_gib": 26.387474060058594,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7591.0,
+      "gpu_percent": 88.0
+    },
+    {
+      "utc": "2026-10-23T16:40:28.222544+00:00",
+      "cpu_percent": 63.6,
+      "ram_used_gib": 26.36703109741211,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7572.0,
+      "gpu_percent": 90.0
+    },
+    {
+      "utc": "2026-10-23T16:40:29.301484+00:00",
+      "cpu_percent": 72.4,
+      "ram_used_gib": 26.346752166748047,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7555.0,
+      "gpu_percent": 89.0
+    },
+    {
+      "utc": "2026-10-23T16:40:30.381068+00:00",
+      "cpu_percent": 78.2,
+      "ram_used_gib": 26.33690643310547,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7548.0,
+      "gpu_percent": 79.0
+    },
+    {
+      "utc": "2026-10-23T16:40:31.475276+00:00",
+      "cpu_percent": 78.5,
+      "ram_used_gib": 26.32968521118164,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7536.0,
+      "gpu_percent": 55.0
+    },
+    {
+      "utc": "2026-10-23T16:40:32.552669+00:00",
+      "cpu_percent": 85.8,
+      "ram_used_gib": 26.384777069091797,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7534.0,
+      "gpu_percent": 91.0
+    },
+    {
+      "utc": "2026-10-23T16:40:33.628698+00:00",
+      "cpu_percent": 81.9,
+      "ram_used_gib": 26.430988311767578,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7531.0,
+      "gpu_percent": 91.0
+    },
+    {
+      "utc": "2026-10-23T16:40:34.709556+00:00",
+      "cpu_percent": 82.4,
+      "ram_used_gib": 26.312515258789062,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7530.0,
+      "gpu_percent": 86.0
+    },
+    {
+      "utc": "2026-10-23T16:40:35.790333+00:00",
+      "cpu_percent": 67.6,
+      "ram_used_gib": 26.3363037109375,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7528.0,
+      "gpu_percent": 90.0
+    },
+    {
+      "utc": "2026-10-23T16:40:36.872936+00:00",
+      "cpu_percent": 76.0,
+      "ram_used_gib": 26.419235229492188,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7521.0,
+      "gpu_percent": 72.0
+    },
+    {
+      "utc": "2026-10-23T16:40:37.951382+00:00",
+      "cpu_percent": 94.9,
+      "ram_used_gib": 26.484161376953125,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7533.0,
+      "gpu_percent": 91.0
+    },
+    {
+      "utc": "2026-10-23T16:40:39.031534+00:00",
+      "cpu_percent": 84.9,
+      "ram_used_gib": 26.51445770263672,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7533.0,
+      "gpu_percent": 83.0
+    },
+    {
+      "utc": "2026-10-23T16:40:40.128037+00:00",
+      "cpu_percent": 77.6,
+      "ram_used_gib": 26.55437469482422,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7536.0,
+      "gpu_percent": 89.0
+    },
+    {
+      "utc": "2026-10-23T16:40:41.207052+00:00",
+      "cpu_percent": 64.8,
+      "ram_used_gib": 26.590808868408203,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7534.0,
+      "gpu_percent": 90.0
+    },
+    {
+      "utc": "2026-10-23T16:40:42.287211+00:00",
+      "cpu_percent": 78.1,
+      "ram_used_gib": 26.621875762939453,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7534.0,
+      "gpu_percent": 41.0
+    },
+    {
+      "utc": "2026-10-23T16:40:43.368510+00:00",
+      "cpu_percent": 76.9,
+      "ram_used_gib": 26.640098571777344,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7524.0,
+      "gpu_percent": 89.0
+    },
+    {
+      "utc": "2026-10-23T16:40:44.449881+00:00",
+      "cpu_percent": 91.7,
+      "ram_used_gib": 26.640300750732422,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7536.0,
+      "gpu_percent": 80.0
+    },
+    {
+      "utc": "2026-10-23T16:40:45.550246+00:00",
+      "cpu_percent": 100.0,
+      "ram_used_gib": 26.653244018554688,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7528.0,
+      "gpu_percent": 59.0
+    },
+    {
+      "utc": "2026-10-23T16:40:46.921882+00:00",
+      "cpu_percent": 100.0,
+      "ram_used_gib": 26.600296020507812,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7543.0,
+      "gpu_percent": 96.0
+    },
+    {
+      "utc": "2026-10-23T16:40:48.299163+00:00",
+      "cpu_percent": 100.0,
+      "ram_used_gib": 26.643211364746094,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7539.0,
+      "gpu_percent": 99.0
+    },
+    {
+      "utc": "2026-10-23T16:40:49.428150+00:00",
+      "cpu_percent": 96.2,
+      "ram_used_gib": 26.67957305908203,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7504.0,
+      "gpu_percent": 99.0
+    },
+    {
+      "utc": "2026-10-23T16:40:50.524140+00:00",
+      "cpu_percent": 86.9,
+      "ram_used_gib": 26.66995620727539,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7504.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:40:51.620823+00:00",
+      "cpu_percent": 92.7,
+      "ram_used_gib": 26.685684204101562,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7504.0,
+      "gpu_percent": 98.0
+    },
+    {
+      "utc": "2026-10-23T16:40:52.716031+00:00",
+      "cpu_percent": 99.0,
+      "ram_used_gib": 26.61096954345703,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7511.0,
+      "gpu_percent": 99.0
+    },
+    {
+      "utc": "2026-10-23T16:40:53.842408+00:00",
+      "cpu_percent": 89.1,
+      "ram_used_gib": 26.65662384033203,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7522.0,
+      "gpu_percent": 98.0
+    }
+  ],
+  "scope": "System-wide counters include other programs. Model already loaded before baseline.",
+  "calls": 30,
+  "errors": 0,
+  "wall_s": 86.59078350000345,
+  "completed_requests_per_minute": 20.78743172476235,
+  "first_request_latency_s": 9.627652199997101
+}

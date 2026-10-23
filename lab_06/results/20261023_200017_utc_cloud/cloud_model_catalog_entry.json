@@ -1,0 +1,30 @@
+{
+  "retrieved_at_utc": "2026-10-23T20:00:17.306096+00:00",
+  "source": "https://api.giga.chat/v1/models",
+  "model": {
+    "id": "GigaChat-2",
+    "object": "model",
+    "owned_by": "salutedevices",
+    "type": "chat"
+  },
+  "balance_before": {
+    "balance": [
+      {
+        "usage": "GigaChat-Ultra",
+        "value": 50000000
+      },
+      {
+        "usage": "GigaChat-Pro",
+        "value": 40000000
+      },
+      {
+        "usage": "GigaChat-Max",
+        "value": 25000000
+      },
+      {
+        "usage": "GigaChat",
+        "value": 250000000
+      }
+    ]
+  }
+}

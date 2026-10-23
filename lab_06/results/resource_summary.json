@@ -1,0 +1,70 @@
+{
+  "local": {
+    "sample_count": 79,
+    "before": {
+      "utc": "2026-10-23T16:39:27.462899+00:00",
+      "cpu_percent": 65.4,
+      "ram_used_gib": 26.54058074951172,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 7545.0,
+      "gpu_percent": 97.0
+    },
+    "scope": "Whole local workstation, not model-only; cloud host hardware is not measured.",
+    "cpu_percent": {
+      "mean": 86.37594936708861,
+      "min": 56.5,
+      "max": 100.0
+    },
+    "ram_used_gib": {
+      "mean": 26.43823546397535,
+      "min": 25.999286651611328,
+      "max": 26.685684204101562
+    },
+    "vram_used_mib": {
+      "mean": 7564.012658227848,
+      "min": 7504.0,
+      "max": 7607.0
+    },
+    "gpu_percent": {
+      "mean": 92.87341772151899,
+      "min": 23.0,
+      "max": 99.0
+    }
+  },
+  "cloud": {
+    "sample_count": 17,
+    "before": {
+      "utc": "2026-10-23T20:00:17.311615+00:00",
+      "cpu_percent": 14.3,
+      "ram_used_gib": 15.187877655029297,
+      "ram_total_gib": 27.28701400756836,
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "vram_total_mib": 8151.0,
+      "vram_used_mib": 1897.0,
+      "gpu_percent": 2.0
+    },
+    "scope": "Whole local workstation, not model-only; cloud host hardware is not measured.",
+    "cpu_percent": {
+      "mean": 23.288235294117648,
+      "min": 4.8,
+      "max": 41.4
+    },
+    "ram_used_gib": {
+      "mean": 15.397624745088464,
+      "min": 15.1810302734375,
+      "max": 15.571849822998047
+    },
+    "vram_used_mib": {
+      "mean": 1828.8823529411766,
+      "min": 1619.0,
+      "max": 1956.0
+    },
+    "gpu_percent": {
+      "mean": 11.823529411764707,
+      "min": 1.0,
+      "max": 85.0
+    }
+  }
+}

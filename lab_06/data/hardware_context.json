@@ -1,0 +1,7 @@
+{
+  "cpu_name": "AMD Ryzen 7 7800X3D 8-Core Processor",
+  "source": "Windows CPU registry on 2026-10-24 Asia/Omsk",
+  "local_model_config_source": "lab08-rag/results/20261023_160818_utc/llm_model.json (earlier same-day capture, not recaptured during Lab6)",
+  "lm_studio_version_last_recorded": "0.4.24.0",
+  "lm_studio_version_source": "lab05-local-llm/results/hardware.json (2026-10-08 UTC)"
+}

@@ -1,0 +1,542 @@
+[
+  {
+    "backend": "local",
+    "test_id": "t01",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Верно объяснены одностороннее хеширование и общий ключ симметричного шифрования.",
+    "answer_sha256": "99dbf6ece7d0535e4cce1f94995366011dc4fe4a0bd9d496f1a952a4da181045",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t02",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Пять тезисов передают основные положения; последний является общим итогом.",
+    "answer_sha256": "32cc240ba82a6e5cf4c368ccac8593f3cde190aa9d07659be85af0045994d5ea",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t03",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Подозрение отделено от доказанного взлома, предложена проверка.",
+    "answer_sha256": "9559e07ae233329a0a941bdb4e98c869fadf0a3e779237dfbcee532124d5b130",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t04",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Все значения извлечены верно; Markdown-обёртка учитывается отдельно как нарушение формата.",
+    "answer_sha256": "957edb87305ed0ef036235a9d30f5e31ccaf4ced65f14322e1a34c55bf314809",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t05",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Используются hashlib, UTF-8 и hexdigest; контрольные строки проходят.",
+    "answer_sha256": "16a01ccdb9b3784ca1a89ca2e2a57e4aa63b8bfe6a8a681f328f26f7bb09e591",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t06",
+    "repeat": 1,
+    "content_score": 1,
+    "reason": "Различие передано, но хеш ошибочно назван уникальным: коллизии возможны.",
+    "answer_sha256": "128da70fc51eac26b7ead0baff1a28bfd11f2c1b3c0596daa33d9876b742838c",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t07",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Сохранены ежедневность, шифрование, отдельное хранение, ежемесячная проверка и ограничение доступа.",
+    "answer_sha256": "84382e99d8c28da2bb5f7c0419d29a0c45c18a22e237f303acd9230a66445d7a",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t08",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Верная категория, атака обозначена как предположение.",
+    "answer_sha256": "4d8837bca32070a57bef3d0678c27903f92c79367176153a6515412db52f98cc",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t09",
+    "repeat": 1,
+    "content_score": 1,
+    "reason": "Поля заполнены, но brute-force объявлен фактом; формат проверен отдельно.",
+    "answer_sha256": "3371d677db7d6f149881065cd7098bc7caefc02e22ef6a68f7f94fbcf3cc61a4",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t10",
+    "repeat": 1,
+    "content_score": 1,
+    "reason": "Октеты ограничены, но регулярное выражение принимает часть более длинной последовательности октетов.",
+    "answer_sha256": "090f1f6531308274b25acc3c82449eab39a1a8843a3f3348933789d5b272a415",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t11",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Точная метка normal.",
+    "answer_sha256": "83d7d4df18591f6a966c7999355338c625e5a2f7c9cb0c35f11d3ed9f725e022",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t12",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Точная метка phishing.",
+    "answer_sha256": "65634668ddd7245dc86518b4535986b991c729c7eb39c5be7d2fa2cd147a9e2e",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t13",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Верные типы и значения count и event; обёртка нарушает строгий JSON.",
+    "answer_sha256": "494602cfa0f77d44b4397f4a1f4564ef41d6f27dbda764db28bf40ffcacab9e8",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t14",
+    "repeat": 1,
+    "content_score": 1,
+    "reason": "service содержит лишние слова вместо ожидаемого backup.",
+    "answer_sha256": "433279ca8f2f9860c57d4f495b8aa71e4878d30159dbaa3ef80a621a224c182b",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t15",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Точный результат 3.",
+    "answer_sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t16",
+    "repeat": 1,
+    "content_score": 1,
+    "reason": "Нет проверки личности и явного отзыва потерянного фактора; блокировка всех аккаунтов избыточна.",
+    "answer_sha256": "5f39b68a5f384f768c70cbe151dc1b6ef49dabc00e0a758ac2d121b517a4e149",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t16",
+    "repeat": 2,
+    "content_score": 1,
+    "reason": "Нет проверки личности и явного отзыва потерянного фактора; блокировка всех аккаунтов избыточна.",
+    "answer_sha256": "6329eaa63df8c61c3990a194f666aed0191933429745ca3edea72839b2e12c4c",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t16",
+    "repeat": 3,
+    "content_score": 1,
+    "reason": "Нет проверки личности и явного отзыва потерянного фактора; блокировка всех аккаунтов избыточна.",
+    "answer_sha256": "6329eaa63df8c61c3990a194f666aed0191933429745ca3edea72839b2e12c4c",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t17",
+    "repeat": 1,
+    "content_score": 0,
+    "reason": "Нет обязательного немедленного отзыва старого токена. Удаление строки/истории и выпуск нового токена сами по себе не закрывают старый доступ.",
+    "answer_sha256": "32f0e31708292ae51d55767388f60f4579f5aeed55e9b8f927d2868f586a6ecc",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t17",
+    "repeat": 2,
+    "content_score": 0,
+    "reason": "Нет обязательного немедленного отзыва старого токена. Удаление строки/истории и выпуск нового токена сами по себе не закрывают старый доступ.",
+    "answer_sha256": "1e175a711332625e61839a2f59f125552723eadb5f0226df5e23e89cd773c1f0",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t17",
+    "repeat": 3,
+    "content_score": 0,
+    "reason": "Нет обязательного немедленного отзыва старого токена. Удаление строки/истории и выпуск нового токена сами по себе не закрывают старый доступ.",
+    "answer_sha256": "8cb1a9b16f46d59b419f44cd7303f8cd596c50913a0f9ca995394b9a906a4ae2",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t18",
+    "repeat": 1,
+    "content_score": 1,
+    "reason": "Проверка логов полезна, но не указаны повторное восстановление и подтверждение работоспособности копии.",
+    "answer_sha256": "b3bbecbc3bf862d62ac0e68cc0322af3307196121bd88ffaa5e179de19c06dc0",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t18",
+    "repeat": 2,
+    "content_score": 1,
+    "reason": "Проверка логов полезна, но не указаны повторное восстановление и подтверждение работоспособности копии.",
+    "answer_sha256": "b3bbecbc3bf862d62ac0e68cc0322af3307196121bd88ffaa5e179de19c06dc0",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t18",
+    "repeat": 3,
+    "content_score": 1,
+    "reason": "Проверка логов полезна, но не указаны повторное восстановление и подтверждение работоспособности копии.",
+    "answer_sha256": "b3bbecbc3bf862d62ac0e68cc0322af3307196121bd88ffaa5e179de19c06dc0",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t19",
+    "repeat": 1,
+    "content_score": 1,
+    "reason": "Предлагается безопасная остановка, но не раскрыты prompt injection, разделение данных/инструкций и независимая проверка доступа.",
+    "answer_sha256": "abc60d0f914c4e0d9c152a9ebad9a44ed2b8d820d3f3d5ba635901008f3ede0e",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t19",
+    "repeat": 2,
+    "content_score": 1,
+    "reason": "Предлагается безопасная остановка, но не раскрыты prompt injection, разделение данных/инструкций и независимая проверка доступа.",
+    "answer_sha256": "49ff5f037aad11c6536de27a773fbb1bfee482766864ab1ff3074fc6b2087ea3",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t19",
+    "repeat": 3,
+    "content_score": 1,
+    "reason": "Предлагается безопасная остановка, но не раскрыты prompt injection, разделение данных/инструкций и независимая проверка доступа.",
+    "answer_sha256": "0538c5c37ee33d61fedff1ac4047e2914648ecf8888585e09deb3fe88aded474",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t20",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Корректно обозначен риск и предложено ограничить внешний доступ без утверждения о состоявшейся утечке.",
+    "answer_sha256": "d8b752f3eae524fbdc90ef4f3fedff240bea191f585587f0f6745b5d70aa07a6",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t20",
+    "repeat": 2,
+    "content_score": 2,
+    "reason": "Корректно обозначен риск и предложено ограничить внешний доступ без утверждения о состоявшейся утечке.",
+    "answer_sha256": "d8b752f3eae524fbdc90ef4f3fedff240bea191f585587f0f6745b5d70aa07a6",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "local",
+    "test_id": "t20",
+    "repeat": 3,
+    "content_score": 2,
+    "reason": "Корректно обозначен риск и предложено ограничить внешний доступ без утверждения о состоявшейся утечке.",
+    "answer_sha256": "d8b752f3eae524fbdc90ef4f3fedff240bea191f585587f0f6745b5d70aa07a6",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t01",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Корректное различение хеширования и симметричного шифрования.",
+    "answer_sha256": "75a2908389e05180c6da129fa1fc7fdf6c32853fe20c8d95e687b716d45bef05",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t02",
+    "repeat": 1,
+    "content_score": 1,
+    "reason": "Добавлена регулярность тренировок, которой нет в исходном тексте; пятый тезис дублирует обучение.",
+    "answer_sha256": "34fd1aedc5e9ef4423f8444f80ea85027f4818471e9c1a50297d1003b077806c",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t03",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Корректная осторожная классификация.",
+    "answer_sha256": "ae98d9cdd006146930aeb99a92fcee587a73f42b7fc37d5f4234261ed74d4203",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t04",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Значения верны; event_type допускает описание события, фиксированного словаря в задании нет.",
+    "answer_sha256": "203ce64ed0bc10f6d58e3af16ab70dc7b239d286e53f571840c78adf45ccb8d9",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t05",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Корректное вычисление SHA-256 стандартной библиотекой; контрольные строки проходят.",
+    "answer_sha256": "d9427b20368ea27a3aae3b1fa4d385d02d0a59e19cdf76f30c2b18e710f50b4d",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t06",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Смысл верен; четыре предложения вместо пяти отмечены отдельной проверкой формата.",
+    "answer_sha256": "12c856aa1e52c56f7a1e833e67f8c6fcf04a444a93f03b86b03e86ed5fa5e11a",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t07",
+    "repeat": 1,
+    "content_score": 1,
+    "reason": "Не сохранено условие доступа только назначенных администраторов; вместо него им приписана проверка восстановления.",
+    "answer_sha256": "3d29eabda6d0aed45692d0b8b92f88e8ea4cbb1587049e8ec504e1a44c303e60",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t08",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Верная категория и предположительная атака; объяснение краткое.",
+    "answer_sha256": "5d03e80e013900e3b1a03bd44605672dff41f2cebeb884d03224daa2261a984c",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t09",
+    "repeat": 1,
+    "content_score": 1,
+    "reason": "Попытка подбора объявлена наблюдаемым фактом, хотя исходное событие этого не доказывает.",
+    "answer_sha256": "bb13c5c80d0ca44aa160f2b76261ff925b85b0162f0c74340157132590c72c69",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t10",
+    "repeat": 1,
+    "content_score": 1,
+    "reason": "Та же ошибка границ IPv4, что у локальной модели.",
+    "answer_sha256": "04f99a61170003f1b466ec530c14aa9256c4890299ed409683b2f9cbc7d96883",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t11",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Точная метка normal.",
+    "answer_sha256": "317b32c143692b9939c197f6a5df54f9698df9a4882fe8bf19608968662be4fa",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t12",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Точная метка phishing.",
+    "answer_sha256": "2ce4ce947f548d483889bf6b6c4731ebd50a8f8e48fc7b84373c5cc4cf1d35b3",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t13",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Верные count и event; формат проверен отдельно.",
+    "answer_sha256": "58a47973d3c8001803fcc768a273545d4a264a8aeaa08ea75ffa1f7a8aab4095",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t14",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Верные service=backup и status=success; формат проверен отдельно.",
+    "answer_sha256": "56f15a52f6e5d54d1840dfad03bee29aeb14b5f84c67be765cf669cf370511b5",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t15",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Точный результат 3.",
+    "answer_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t16",
+    "repeat": 1,
+    "content_score": 1,
+    "reason": "Блокировка SIM полезна только для части случаев; тип второго фактора не указан, нет проверки личности и отзыва фактора.",
+    "answer_sha256": "04e8bdfa8466f1b101db5340d2414cf0c01e8d7b7ad33e34e90a7c7e718e5069",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t16",
+    "repeat": 2,
+    "content_score": 1,
+    "reason": "Блокировка SIM полезна только для части случаев; тип второго фактора не указан, нет проверки личности и отзыва фактора.",
+    "answer_sha256": "72b092a348ffc325db9f5c943b58fa6dbc57140338b1c7c032e8cf52d0573ae9",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t16",
+    "repeat": 3,
+    "content_score": 1,
+    "reason": "Блокировка SIM полезна только для части случаев; тип второго фактора не указан, нет проверки личности и отзыва фактора.",
+    "answer_sha256": "72b092a348ffc325db9f5c943b58fa6dbc57140338b1c7c032e8cf52d0573ae9",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t17",
+    "repeat": 1,
+    "content_score": 0,
+    "reason": "Отзыв скомпрометированного токена не предложен; изменение коммита или приватности не лишает копии ключа работоспособности.",
+    "answer_sha256": "b4cb699990de1ba6a5e86496ca7d387646ac3461307b2992c1e27956ba80d6a9",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t17",
+    "repeat": 2,
+    "content_score": 0,
+    "reason": "Отзыв скомпрометированного токена не предложен; изменение коммита или приватности не лишает копии ключа работоспособности.",
+    "answer_sha256": "5d9b834cb4aefca5b999ec95a747ce7f2e4dee664ddcbcf4929c9af83657113f",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t17",
+    "repeat": 3,
+    "content_score": 0,
+    "reason": "Отзыв скомпрометированного токена не предложен; изменение коммита или приватности не лишает копии ключа работоспособности.",
+    "answer_sha256": "d33167a1eecee34b313f56e769c2ff6281706079bd3653957210a8db4fcec25f",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t18",
+    "repeat": 1,
+    "content_score": 1,
+    "reason": "Есть диагностика журналов, но нет повторного успешного теста восстановления; в повторе 2 дополнительно предполагается наличие рабочей конфигурации.",
+    "answer_sha256": "537f1a3ba759b78120942476a07fb069e877a23cf6ce6326a9accf0e069ac9d4",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t18",
+    "repeat": 2,
+    "content_score": 1,
+    "reason": "Есть диагностика журналов, но нет повторного успешного теста восстановления; в повторе 2 дополнительно предполагается наличие рабочей конфигурации.",
+    "answer_sha256": "cdccb37d70ff2fb113033ac12dad3c207fcf2d5ee3e7fd487c0deaa2a441a93b",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t18",
+    "repeat": 3,
+    "content_score": 1,
+    "reason": "Есть диагностика журналов, но нет повторного успешного теста восстановления; в повторе 2 дополнительно предполагается наличие рабочей конфигурации.",
+    "answer_sha256": "62cb1d5bc59b6e3f598eb8b438dc77486c40f13335b68d432bfd15d7d8ccd76d",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t19",
+    "repeat": 1,
+    "content_score": 1,
+    "reason": "Остановка и сообщение ответственному полезны, но нет распознавания prompt injection и политики проверки доступа до передачи контекста.",
+    "answer_sha256": "3faef9e2d492d5899069e5dec0cb2f025c4c4ad6eb78e5e6c0915910f55e05c5",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t19",
+    "repeat": 2,
+    "content_score": 1,
+    "reason": "Остановка и сообщение ответственному полезны, но нет распознавания prompt injection и политики проверки доступа до передачи контекста.",
+    "answer_sha256": "3faef9e2d492d5899069e5dec0cb2f025c4c4ad6eb78e5e6c0915910f55e05c5",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t19",
+    "repeat": 3,
+    "content_score": 1,
+    "reason": "Остановка и сообщение ответственному полезны, но нет распознавания prompt injection и политики проверки доступа до передачи контекста.",
+    "answer_sha256": "3faef9e2d492d5899069e5dec0cb2f025c4c4ad6eb78e5e6c0915910f55e05c5",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t20",
+    "repeat": 1,
+    "content_score": 2,
+    "reason": "Предложено закрыть внешний доступ и добавить аутентификацию/авторизацию; риск не выдан за доказанную утечку.",
+    "answer_sha256": "84c62286123a0c099b3774f3d32eb9e60c5623fc6a516d9f32b2cb4d1769ac92",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t20",
+    "repeat": 2,
+    "content_score": 2,
+    "reason": "Предложено закрыть внешний доступ и добавить аутентификацию/авторизацию; риск не выдан за доказанную утечку.",
+    "answer_sha256": "be4f479a795aedfb157ecdbf66bc0a2c4e3b27226dbab9b95b79383d5e6b1d97",
+    "reviewer": "AI assistant; not independent human assessment"
+  },
+  {
+    "backend": "cloud",
+    "test_id": "t20",
+    "repeat": 3,
+    "content_score": 2,
+    "reason": "Предложено закрыть внешний доступ и добавить аутентификацию/авторизацию; риск не выдан за доказанную утечку.",
+    "answer_sha256": "de875d53bbe989633c1545f3d972efadeb7501e06dc578a75fd45d8722c0694a",
+    "reviewer": "AI assistant; not independent human assessment"
+  }
+]

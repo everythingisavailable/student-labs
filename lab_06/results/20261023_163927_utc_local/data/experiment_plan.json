@@ -1,0 +1,26 @@
+{
+  "status": "prepared_not_run",
+  "unique_tests": 20,
+  "types": [
+    "фактологический",
+    "суммаризация",
+    "классификация",
+    "JSON",
+    "код и логика",
+    "краткий анализ риска"
+  ],
+  "repeat_three_times": [
+    "t16",
+    "t17",
+    "t18",
+    "t19",
+    "t20"
+  ],
+  "calls_per_model": 30,
+  "cloud_model": "not selected; must be a fixed free model, not random router",
+  "temperature": 0.2,
+  "max_tokens": 650,
+  "system": "data/system.txt",
+  "test_sha256": "a24f556fe5d9c4edc3f467bf1090d3dce98660c046377d0624142691dc3b9f99",
+  "rubric": "0 существенная ошибка, 1 частично верно, 2 верно и достаточно; отдельно строгий формат там, где задан"
+}

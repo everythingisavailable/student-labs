@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-24 Asia/Omsk",
+  "source": "https://developers.sber.ru/docs/ru/gigachat/tariffs/individual-tariffs",
+  "measured_tokens": 3902,
+  "tokens_per_request": 130.06666666666666,
+  "balance_decrease": 3902,
+  "freemium_lite_tokens_initial": 250000000,
+  "freemium_validity_months": 12,
+  "conditions": "Freemium within remaining allowance and validity, educational personal use, one sequential stream. No future availability guarantee.",
+  "legacy_paid_comparison": "Illustrative allocation at 1300 RUB / 20,000,000 tokens for eligible existing customers, not an offer to this new account. Whole package costs 1300 RUB; validity one month.",
+  "scenarios": [
+    {
+      "requests": 30,
+      "estimated_tokens": 3902.0,
+      "freemium_cash_rub": 0,
+      "legacy_paid_allocated_rub": 0.25363
+    },
+    {
+      "requests": 1000,
+      "estimated_tokens": 130066.66666666666,
+      "freemium_cash_rub": 0,
+      "legacy_paid_allocated_rub": 8.454333333333333
+    },
+    {
+      "requests": 100000,
+      "estimated_tokens": 13006666.666666666,
+      "freemium_cash_rub": 0,
+      "legacy_paid_allocated_rub": 845.4333333333333
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "status": "completed",
+  "dates_Asia_Omsk": [
+    "2026-10-23",
+    "2026-10-24"
+  ],
+  "runs": {
+    "local": "20261023_163927_utc_local",
+    "cloud": "20261023_200017_utc_cloud"
+  },
+  "local_model": "google/gemma-3n-e4b",
+  "cloud_requested_model": "GigaChat-2",
+  "cloud_response_model": "GigaChat-2:2.0.30.01",
+  "calls_per_model": 30,
+  "unique_tests": 20,
+  "temperature": 0.2,
+  "max_tokens": 650,
+  "stream": false,
+  "initial_plan_note": "Initial prepared_not_run plan and source snapshots retained. Cloud provider selected as GigaChat before its run after OpenRouter access failed. All experimental messages and numeric parameters match.",
+  "preflight_note": "OAuth, catalog and balance checked separately; first measured t01 served as the shared functional check. No excluded warm-up generation.",
+  "raw_sha256": {
+    "local": "2920bb8a190c853643cc0cb48952ad84ed8860cda867378e4a1496ce30c2d631",
+    "cloud": "fc74303ac85f12d8f58f7ddd0db6bf6f4c2dfbddb599c0d81dc609f59f7496de"
+  },
+  "evaluation": "AI assistant, with separate deterministic checks; no independent human assessment",
+  "post_run_changes": [
+    "Added grading, metrics and report",
+    "Improved provider error wording, cloud resource scope and relative CA-path handling; no raw response editing"
+  ],
+  "visual_word_check": "Omitted at user request"
+}

@@ -1,0 +1,9 @@
+# Preserve exact dataset / response bytes and their SHA256 on every platform.
+*.json -text whitespace=cr-at-eol
+*.jsonl -text whitespace=cr-at-eol
+*.csv -text whitespace=cr-at-eol
+system.txt -text whitespace=cr-at-eol
+*.docx binary
+*.png binary
+# Model answers contain intentional Markdown spaces; do not rewrite raw CSV.
+results/raw_results.csv whitespace=cr-at-eol,-blank-at-eol

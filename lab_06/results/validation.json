@@ -1,0 +1,14 @@
+{
+  "raw_calls": 60,
+  "raw_hashes_unchanged": true,
+  "paired_messages_and_parameters_equal": true,
+  "all_stop_without_errors": true,
+  "reviewed_sha_functions_pass": "3/3 each",
+  "ipv4_boundary_failures_detected": "2/9 each",
+  "word_images": 3,
+  "word_tables": 11,
+  "public_files_scanned": 50,
+  "secret_findings": 0,
+  "env_ignored": true,
+  "visual_word_check": "waived by user"
+}

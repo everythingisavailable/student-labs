@@ -1,0 +1,19 @@
+{
+  "status": "local_completed_cloud_pending",
+  "calls": 30,
+  "successful_calls": 30,
+  "finish_reasons": {
+    "stop": 30
+  },
+  "latency_s": {
+    "mean": 2.8855657633335796,
+    "median": 1.3507540999999037,
+    "sample_stdev": 2.8518401911797078,
+    "min": 0.17334020000271266,
+    "max": 9.627652199997101
+  },
+  "total_input_tokens": 2258,
+  "total_output_tokens": 2283,
+  "cloud_results_available": false,
+  "quality_evaluated": false
+}
