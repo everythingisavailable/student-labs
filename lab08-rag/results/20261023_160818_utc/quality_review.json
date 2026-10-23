@@ -1,0 +1,1265 @@
+[
+  {
+    "question_id": "q10",
+    "k": 8,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 1,
+      "citations": 1,
+      "answerability_decision": 2
+    },
+    "total": 8,
+    "correct_refusal": null,
+    "note": "Различие правильно. Английские расшифровки сокращений отсутствуют в контексте: фактически верные внешние знания нарушают строгую опору только на источники.",
+    "citation_audit": {
+      "used": [
+        1,
+        2
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "0f6c19f01542f16161e25bec96c94b43c939ca1ec5943e033bea125c29185f4a"
+  },
+  {
+    "question_id": "q08",
+    "k": 8,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 2,
+      "answerability_decision": 1
+    },
+    "total": 9,
+    "correct_refusal": null,
+    "note": "Нужный S5 найден; отзыв, замена и проверка использования правильны. Лишний вопрос о старых версиях снижает определённость.",
+    "citation_audit": {
+      "used": [
+        5
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "daa4d1398259b738801c6433ba05ab235adea2e45ebffdf84e4857d189120c58"
+  },
+  {
+    "question_id": "q09",
+    "k": 2,
+    "scores": {
+      "correctness": 2,
+      "completeness": 0,
+      "grounding": 2,
+      "citations": 1,
+      "answerability_decision": 2
+    },
+    "total": 7,
+    "correct_refusal": null,
+    "note": "Нужный документ вне top-2; отказ честен относительно полученного контекста, задача не решена. Групповая ссылка не соответствует формату.",
+    "citation_audit": {
+      "used": [
+        1,
+        2
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": [
+        "[S1, S2]"
+      ]
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "fe9ea067e344aaa8185ad618bab904e66b45cc8db2feaa6737801c4cd9ec54fe"
+  },
+  {
+    "question_id": "q04",
+    "k": 4,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 2,
+      "answerability_decision": 2
+    },
+    "total": 10,
+    "correct_refusal": null,
+    "note": "Правильное число и область применимости.",
+    "citation_audit": {
+      "used": [
+        1
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "4a01890ae4e871f904b867040a024dfdd3d27fe3fce6482145a6a61e471b0182"
+  },
+  {
+    "question_id": "q08",
+    "k": 2,
+    "scores": {
+      "correctness": 1,
+      "completeness": 0,
+      "grounding": 0,
+      "citations": 0,
+      "answerability_decision": 1
+    },
+    "total": 2,
+    "correct_refusal": null,
+    "note": "Нужный документ не извлечён; расследование шифровальщика ошибочно перенесено на утечку токена, TLS отвлекает.",
+    "citation_audit": {
+      "used": [
+        1,
+        2
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "faa08589e96b447f393a0f4417e864193fee14bc006c59179eaaabd5c5f14fa9"
+  },
+  {
+    "question_id": "q04",
+    "k": 2,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 2,
+      "answerability_decision": 2
+    },
+    "total": 10,
+    "correct_refusal": null,
+    "note": "Число 30 и ограничение учебным стендом переданы верно.",
+    "citation_audit": {
+      "used": [
+        1
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "c51b38eb9ce9a7fb2bd7ce30d5283c360569a665719feaa147e3a96406bbdf24"
+  },
+  {
+    "question_id": "q11",
+    "k": 2,
+    "scores": {
+      "correctness": 1,
+      "completeness": 0,
+      "grounding": 1,
+      "citations": 1,
+      "answerability_decision": 1
+    },
+    "total": 4,
+    "correct_refusal": null,
+    "note": "Документы авторизации не найдены; реагирование после утечки подано как предотвращение, в конце признана нехватка данных.",
+    "citation_audit": {
+      "used": [
+        1,
+        2
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "32601ccc3e0e5d02325bf14b43d520d82371e23733b0c48d993d946963bb8736"
+  },
+  {
+    "question_id": "q14",
+    "k": 2,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 1,
+      "answerability_decision": 2
+    },
+    "total": 9,
+    "correct_refusal": true,
+    "note": "Корректный отказ, бюджет не выдуман; групповая форма [S1, S2] нарушает заданные одиночные ссылки.",
+    "citation_audit": {
+      "used": [
+        1,
+        2
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": [
+        "[S1, S2]",
+        "[S1, S2]"
+      ]
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "0afe207423d7388f9ac135d520a943ffb985fb63e41fed31eb780ed1436ca1c7"
+  },
+  {
+    "question_id": "q05",
+    "k": 2,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 2,
+      "answerability_decision": 2
+    },
+    "total": 10,
+    "correct_refusal": null,
+    "note": "Полный корректный ответ; дополнение о доказательствах подтверждено.",
+    "citation_audit": {
+      "used": [
+        1,
+        2
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "3249691cd2b93a8ce1dde6353ddcc1593a89fbb6bc8df38b305ace5d5365d778"
+  },
+  {
+    "question_id": "q02",
+    "k": 2,
+    "scores": {
+      "correctness": 1,
+      "completeness": 2,
+      "grounding": 1,
+      "citations": 1,
+      "answerability_decision": 1
+    },
+    "total": 6,
+    "correct_refusal": null,
+    "note": "Основной перечень верен, но ошибочно отрицается наличие порядка оценки критичности, который дан в S2.",
+    "citation_audit": {
+      "used": [
+        1
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "2b9180ebe3c46065e82ea86afcc64820ce84a1364c6e4a0e12c0bfd9e5606cb5"
+  },
+  {
+    "question_id": "q12",
+    "k": 8,
+    "scores": {
+      "correctness": 1,
+      "completeness": 1,
+      "grounding": 1,
+      "citations": 1,
+      "answerability_decision": 1
+    },
+    "total": 5,
+    "correct_refusal": null,
+    "note": "Оба эталона найдены, но часть про инструкции пропущена и избыточно заявлена нехватка шагов.",
+    "citation_audit": {
+      "used": [
+        4
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "e01cbfd6460b605087a5e63f80ce03a05085cfa7e45157c298bb98caaa36418d"
+  },
+  {
+    "question_id": "q02",
+    "k": 4,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 2,
+      "answerability_decision": 2
+    },
+    "total": 10,
+    "correct_refusal": null,
+    "note": "Перечень верен; дополнительные сведения не выдуманы.",
+    "citation_audit": {
+      "used": [
+        1
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "48323255cbe3dea577b27e347b87d860a274b283d0a9eefa6d12971c1f694131"
+  },
+  {
+    "question_id": "q15",
+    "k": 4,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 2,
+      "answerability_decision": 2
+    },
+    "total": 10,
+    "correct_refusal": true,
+    "note": "Корректный отказ, подтверждённый общий VPN-контекст.",
+    "citation_audit": {
+      "used": [
+        1
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "efa36a242a4ed59e4cb160098439c4cb4fe0c25848dae22f3f9401d88f25e649"
+  },
+  {
+    "question_id": "q09",
+    "k": 8,
+    "scores": {
+      "correctness": 1,
+      "completeness": 1,
+      "grounding": 1,
+      "citations": 1,
+      "answerability_decision": 1
+    },
+    "total": 5,
+    "correct_refusal": null,
+    "note": "Причина синхронизации верна, затем её последствие ошибочно объявлено неизвестным. Не указаны доверенный источник и UTC.",
+    "citation_audit": {
+      "used": [
+        5
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "9cd1d7365b046b357f11756f47a422fa0b9b127f5fbda2855eda3e3b7f467a9c"
+  },
+  {
+    "question_id": "q04",
+    "k": 8,
+    "scores": {
+      "correctness": 1,
+      "completeness": 2,
+      "grounding": 1,
+      "citations": 1,
+      "answerability_decision": 1
+    },
+    "total": 6,
+    "correct_refusal": null,
+    "note": "Модель заявляет, что меры для просроченных архивов отсутствуют, хотя они есть в S1.",
+    "citation_audit": {
+      "used": [
+        1
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "4b32fab8fca171935f12fd44189b894a065153b87af530c7362912e16f26d2b7"
+  },
+  {
+    "question_id": "q12",
+    "k": 2,
+    "scores": {
+      "correctness": 1,
+      "completeness": 0,
+      "grounding": 1,
+      "citations": 0,
+      "answerability_decision": 1
+    },
+    "total": 3,
+    "correct_refusal": null,
+    "note": "Найден источник про недоверенные инструкции, но модель отказалась от всего ответа вместо ответа на доступную часть.",
+    "citation_audit": {
+      "used": [
+        1
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "d4322303b5437befeaae16563e43d50f47871827490e5655b66a0a08f98b306e"
+  },
+  {
+    "question_id": "q10",
+    "k": 4,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 1,
+      "citations": 1,
+      "answerability_decision": 2
+    },
+    "total": 8,
+    "correct_refusal": null,
+    "note": "Различие правильно. Английские расшифровки сокращений отсутствуют в контексте: фактически верные внешние знания нарушают строгую опору только на источники.",
+    "citation_audit": {
+      "used": [
+        1,
+        2
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "e931477d4fe9e7e1625279ca6fc287a44f8ff0a14f8f58fcd5c8af33356ad6f9"
+  },
+  {
+    "question_id": "q14",
+    "k": 8,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 1,
+      "answerability_decision": 2
+    },
+    "total": 9,
+    "correct_refusal": true,
+    "note": "Корректный отказ; нестандартная групповая ссылка.",
+    "citation_audit": {
+      "used": [
+        1,
+        3
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": [
+        "[S1, S3]"
+      ]
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "85fb5b918ba318cbaa98968cfdcedb2c7f83b6a7eb949fafc786902759fad953"
+  },
+  {
+    "question_id": "q07",
+    "k": 2,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 2,
+      "answerability_decision": 2
+    },
+    "total": 10,
+    "correct_refusal": null,
+    "note": "Верная процедура восстановления второго фактора.",
+    "citation_audit": {
+      "used": [
+        1
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "67b13ebd387826ce3c1789dc93d43fd1f8f300eb5ac2b626e955afedbba1da00"
+  },
+  {
+    "question_id": "q11",
+    "k": 4,
+    "scores": {
+      "correctness": 1,
+      "completeness": 0,
+      "grounding": 1,
+      "citations": 1,
+      "answerability_decision": 0
+    },
+    "total": 3,
+    "correct_refusal": null,
+    "note": "Документы авторизации не найдены; набор процедур ИБ вместо ответа, нехватка данных не признана.",
+    "citation_audit": {
+      "used": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "8d1aff2873e7ee0c3c315ed45ea5a13a78030c2999d6aba8d7ba140e09c723d6"
+  },
+  {
+    "question_id": "q16",
+    "k": 4,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 1,
+      "answerability_decision": 2
+    },
+    "total": 9,
+    "correct_refusal": true,
+    "note": "Корректный отказ; пояснение RTO поддержано S1, но ссылка групповая.",
+    "citation_audit": {
+      "used": [
+        1,
+        2
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": [
+        "[S1, S2]"
+      ]
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "de3e07ee41e122766d962eb2c7fbeee624fdd9d9e95b1bdff3180546cc0205f5"
+  },
+  {
+    "question_id": "q11",
+    "k": 8,
+    "scores": {
+      "correctness": 1,
+      "completeness": 1,
+      "grounding": 1,
+      "citations": 1,
+      "answerability_decision": 1
+    },
+    "total": 5,
+    "correct_refusal": null,
+    "note": "Появилась фильтрация по метаданным из S5, но серверная авторизация прямого доступа не найдена. Лишние DNS/фишинг смешаны с целью.",
+    "citation_audit": {
+      "used": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "04d3810cb4c2d86a343a71e23b565ea23263ec41f82b4f0b23ed0784c741f265"
+  },
+  {
+    "question_id": "q13",
+    "k": 2,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 2,
+      "answerability_decision": 2
+    },
+    "total": 10,
+    "correct_refusal": true,
+    "note": "Корректный отказ; номер не выдуман. Метки перечисляют проверенные фрагменты, но не доказывают отсутствие сведений во всей возможной базе.",
+    "citation_audit": {
+      "used": [
+        1,
+        2
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "4c250d25cbcd0ec8b0abd0bfd102c229330034b35ab061bdd4703c88183ab5f9"
+  },
+  {
+    "question_id": "q09",
+    "k": 4,
+    "scores": {
+      "correctness": 2,
+      "completeness": 0,
+      "grounding": 2,
+      "citations": 1,
+      "answerability_decision": 2
+    },
+    "total": 7,
+    "correct_refusal": null,
+    "note": "Нужный документ вне top-4; корректное признание нехватки контекста, но ответа нет; ссылки на описанные темы неполны.",
+    "citation_audit": {
+      "used": [
+        1,
+        4
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": [
+        "[S1, S4]"
+      ]
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "5bab4255b1aba7fa5acfa899efe10d22825daf2b0a75f4bf87025a716d955154"
+  },
+  {
+    "question_id": "q07",
+    "k": 8,
+    "scores": {
+      "correctness": 1,
+      "completeness": 2,
+      "grounding": 1,
+      "citations": 1,
+      "answerability_decision": 2
+    },
+    "total": 7,
+    "correct_refusal": null,
+    "note": "Нормативное «нельзя отключать» превращено в техническое «невозможно», чего источник не доказывает.",
+    "citation_audit": {
+      "used": [
+        1
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "aefa86913ea7e56b52f6d2a26e1c38b60d0841f210abcda41d0fad93c353efb9"
+  },
+  {
+    "question_id": "q08",
+    "k": 4,
+    "scores": {
+      "correctness": 1,
+      "completeness": 0,
+      "grounding": 0,
+      "citations": 0,
+      "answerability_decision": 0
+    },
+    "total": 1,
+    "correct_refusal": null,
+    "note": "Нужный документ не извлечён; вывод о следах в Git не подкреплён S1, отзыва токена нет.",
+    "citation_audit": {
+      "used": [
+        1,
+        4
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "f130e6e54bd35413f485de9d5e1aea3e628f4e20d7f83f35dab78fd027fc9e01"
+  },
+  {
+    "question_id": "q16",
+    "k": 8,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 1,
+      "answerability_decision": 2
+    },
+    "total": 9,
+    "correct_refusal": true,
+    "note": "Конкретное RTO не выдумано; групповая ссылка вместо одиночных меток.",
+    "citation_audit": {
+      "used": [
+        1,
+        2
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": [
+        "[S1, S2]"
+      ]
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "b6652dede862665c621849027f1304ad3fb1c0e1be8540893bd82d89c4c41377"
+  },
+  {
+    "question_id": "q15",
+    "k": 8,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 2,
+      "answerability_decision": 2
+    },
+    "total": 10,
+    "correct_refusal": true,
+    "note": "Корректный отказ, без придуманного производителя.",
+    "citation_audit": {
+      "used": [
+        1
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "230b48de9f9540cea0cbc799d7629194bb5d0db576ca8ff44f4eb5f94dc45c43"
+  },
+  {
+    "question_id": "q01",
+    "k": 2,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 2,
+      "answerability_decision": 2
+    },
+    "total": 10,
+    "correct_refusal": null,
+    "note": "Основной ответ полон; дополнительное хранение архивов подтверждено S2, но не требовалось.",
+    "citation_audit": {
+      "used": [
+        1,
+        2
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "25c57743fd36aea66f5373a1151b624da5205a4e3b408e354bd6df4b6096edee"
+  },
+  {
+    "question_id": "q07",
+    "k": 4,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 2,
+      "answerability_decision": 2
+    },
+    "total": 10,
+    "correct_refusal": null,
+    "note": "Верная процедура; дополнительная оговорка не нужна.",
+    "citation_audit": {
+      "used": [
+        1
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "431189e63aa094dcabd6649a89ff11a6648b857f257acfc6f0a9ff008bc68c67"
+  },
+  {
+    "question_id": "q06",
+    "k": 4,
+    "scores": {
+      "correctness": 2,
+      "completeness": 1,
+      "grounding": 2,
+      "citations": 2,
+      "answerability_decision": 2
+    },
+    "total": 9,
+    "correct_refusal": null,
+    "note": "Основные действия верны; нет регистрации в заявке, избыточный контекст.",
+    "citation_audit": {
+      "used": [
+        1,
+        2,
+        4
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "00004be30c292ad08b82884c9b2e160f046a239d4f17b5627502a5da3c84020a"
+  },
+  {
+    "question_id": "q15",
+    "k": 2,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 1,
+      "answerability_decision": 2
+    },
+    "total": 9,
+    "correct_refusal": true,
+    "note": "Продукт и версия не выдуманы; MFA подтверждена S1. Групповая ссылка не соответствует формату.",
+    "citation_audit": {
+      "used": [
+        1,
+        2
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": [
+        "[S1, S2]"
+      ]
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "465d978878a100c0df048339100c46c3b8cf5cdc9aa8cd179cf6c2a06e4d0006"
+  },
+  {
+    "question_id": "q05",
+    "k": 4,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 2,
+      "answerability_decision": 2
+    },
+    "total": 10,
+    "correct_refusal": null,
+    "note": "Полный ответ, но избыточный пересказ других источников.",
+    "citation_audit": {
+      "used": [
+        1,
+        2,
+        3
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "6033b6be680344f237ef6290f570940bb7785e5a6b816d4740a0a54284bcfa74"
+  },
+  {
+    "question_id": "q13",
+    "k": 8,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 2,
+      "answerability_decision": 2
+    },
+    "total": 10,
+    "correct_refusal": true,
+    "note": "Корректный отказ; номер не выдуман. Метки перечисляют проверенные фрагменты, но не доказывают отсутствие сведений во всей возможной базе.",
+    "citation_audit": {
+      "used": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "adfdd5e67a5b72db7391fb79fa073de197410734727d6711755e725a5110506c"
+  },
+  {
+    "question_id": "q16",
+    "k": 2,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 1,
+      "answerability_decision": 2
+    },
+    "total": 9,
+    "correct_refusal": true,
+    "note": "RTO организации не выдумано; групповые и неоднозначно расположенные ссылки, S2 содержит RPO, а не RTO.",
+    "citation_audit": {
+      "used": [
+        1,
+        2
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": [
+        "[S1, S2]"
+      ]
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "6c4f2708d6f927dfd7ab1fc290dec0be397a951c698297a48856378ccbad256f"
+  },
+  {
+    "question_id": "q01",
+    "k": 8,
+    "scores": {
+      "correctness": 1,
+      "completeness": 2,
+      "grounding": 1,
+      "citations": 1,
+      "answerability_decision": 1
+    },
+    "total": 6,
+    "correct_refusal": null,
+    "note": "В конце ошибочно заявлено отсутствие частоты пересмотра ролей, хотя S8 содержит «раз в квартал».",
+    "citation_audit": {
+      "used": [
+        1
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "9f4b9a9e7c59215baf3dfb6b14babe45e460e854f46e54a8cc5e1e7b80cfdb91"
+  },
+  {
+    "question_id": "q10",
+    "k": 2,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 1,
+      "citations": 1,
+      "answerability_decision": 2
+    },
+    "total": 8,
+    "correct_refusal": null,
+    "note": "Различие правильно. Английские расшифровки сокращений отсутствуют в контексте: фактически верные внешние знания нарушают строгую опору только на источники.",
+    "citation_audit": {
+      "used": [
+        1,
+        2
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "b909d94eb0fdad8f66dd1d0e98110726ffdcfbc7af29791252ba465caf6d33bf"
+  },
+  {
+    "question_id": "q13",
+    "k": 4,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 2,
+      "answerability_decision": 2
+    },
+    "total": 10,
+    "correct_refusal": true,
+    "note": "Корректный отказ; номер не выдуман. Метки перечисляют проверенные фрагменты, но не доказывают отсутствие сведений во всей возможной базе.",
+    "citation_audit": {
+      "used": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "7bf349b3a493a442a8ba2cd092a72401087af4699bb93cedb5bc8e7029e97ce8"
+  },
+  {
+    "question_id": "q02",
+    "k": 8,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 2,
+      "answerability_decision": 2
+    },
+    "total": 10,
+    "correct_refusal": null,
+    "note": "Перечень верен; формат хранения действительно не указан, хотя уточнение не требовалось.",
+    "citation_audit": {
+      "used": [
+        1
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "980b2ab8cbe742572faba2c02da70098d933b7ee8fa032df4b0d1c480762d080"
+  },
+  {
+    "question_id": "q12",
+    "k": 4,
+    "scores": {
+      "correctness": 2,
+      "completeness": 1,
+      "grounding": 2,
+      "citations": 1,
+      "answerability_decision": 1
+    },
+    "total": 7,
+    "correct_refusal": null,
+    "note": "Оба эталона найдены, но часть про инструкции внутри документов пропущена; добавлен посторонний фишинг, ссылки стоят перед блоком.",
+    "citation_audit": {
+      "used": [
+        3,
+        4
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "f251bbcadc2c29e0e451ba45a5a936cf908b37dddf78a55fc2ee5468f433bb01"
+  },
+  {
+    "question_id": "q03",
+    "k": 2,
+    "scores": {
+      "correctness": 1,
+      "completeness": 2,
+      "grounding": 1,
+      "citations": 0,
+      "answerability_decision": 1
+    },
+    "total": 5,
+    "correct_refusal": null,
+    "note": "Владельцы систем названы, затем модель утверждает, что неизвестно, кто проверяет; ошибочная ссылка S1.",
+    "citation_audit": {
+      "used": [
+        1
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "62b124f80797e2c9e0926abb9ffc94641d6691c98d1436c9d8f8c2edddbe81eb"
+  },
+  {
+    "question_id": "q03",
+    "k": 8,
+    "scores": {
+      "correctness": 1,
+      "completeness": 2,
+      "grounding": 1,
+      "citations": 1,
+      "answerability_decision": 1
+    },
+    "total": 6,
+    "correct_refusal": null,
+    "note": "Частота верна, но S1 прямо перечисляет временные и сервисные записи, которые модель считает неуточнёнными.",
+    "citation_audit": {
+      "used": [
+        1
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "9b58560513565ae45bd5b9e86808266ecfa902558a885d316ca90488898cf640"
+  },
+  {
+    "question_id": "q05",
+    "k": 8,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 2,
+      "answerability_decision": 2
+    },
+    "total": 10,
+    "correct_refusal": null,
+    "note": "Основной ответ полный; объяснение причин в источниках действительно отсутствует.",
+    "citation_audit": {
+      "used": [
+        1
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "bfefc2e556f1ae2aa5f5b110acd99ee35ad6258ac5bf6d82ad1d623dabe8fffc"
+  },
+  {
+    "question_id": "q06",
+    "k": 2,
+    "scores": {
+      "correctness": 2,
+      "completeness": 1,
+      "grounding": 2,
+      "citations": 2,
+      "answerability_decision": 2
+    },
+    "total": 9,
+    "correct_refusal": null,
+    "note": "Основные действия верны; не упомянута фиксация восстановления в заявке, добавлен посторонний сценарий шифровальщика.",
+    "citation_audit": {
+      "used": [
+        1,
+        2
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "1104ae95694e8df9d14827f3e5c1970030fc7b4ba4d4699d30605f917518ecd0"
+  },
+  {
+    "question_id": "q06",
+    "k": 8,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 2,
+      "answerability_decision": 2
+    },
+    "total": 10,
+    "correct_refusal": null,
+    "note": "Все ожидаемые действия перечислены, источники корректны.",
+    "citation_audit": {
+      "used": [
+        1
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "8f35de28b41e225bb00b95183311f26b708e3b54fb639f81b94e715a43063ce2"
+  },
+  {
+    "question_id": "q01",
+    "k": 4,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 2,
+      "answerability_decision": 2
+    },
+    "total": 10,
+    "correct_refusal": null,
+    "note": "Ответ полон; лишнее замечание об обновлениях не отвечает вопросу.",
+    "citation_audit": {
+      "used": [
+        1,
+        2,
+        3
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "20bf1f33193cc1fc6f977ffc4e3d3b2de68fa5c6b8c43e26777d3345dbfe0271"
+  },
+  {
+    "question_id": "q03",
+    "k": 4,
+    "scores": {
+      "correctness": 1,
+      "completeness": 2,
+      "grounding": 1,
+      "citations": 1,
+      "answerability_decision": 1
+    },
+    "total": 6,
+    "correct_refusal": null,
+    "note": "Внутреннее противоречие: владелец назван, затем объявлен неизвестным; в S1 также есть временные и сервисные записи.",
+    "citation_audit": {
+      "used": [
+        1
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": []
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "4389cc08d0ecebbae29698ec385b5b542791bb26dd6827e32e3eb8d3ba0b215c"
+  },
+  {
+    "question_id": "q14",
+    "k": 4,
+    "scores": {
+      "correctness": 2,
+      "completeness": 2,
+      "grounding": 2,
+      "citations": 1,
+      "answerability_decision": 2
+    },
+    "total": 9,
+    "correct_refusal": true,
+    "note": "Корректный отказ с подтверждёнными примерами процедур. Групповая ссылка; список факторов бюджета не сообщается как факт об организации.",
+    "citation_audit": {
+      "used": [
+        1,
+        2,
+        3
+      ],
+      "invalid": [],
+      "all_labels_exist": true,
+      "has_citations": true,
+      "nonstandard_groups": [
+        "[S1, S3]"
+      ]
+    },
+    "reviewer": "AI assistant",
+    "answer_sha256": "5a5d39a5dde7e13cd8b90fc0f66a58c61b0ee2e4cbb16e0c06f7615915e1f6d2"
+  }
+]

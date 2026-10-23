@@ -1,0 +1,35 @@
+[
+  {
+    "k": 2,
+    "calls": 16,
+    "recall": 0.7083333333333334,
+    "mrr": 0.8,
+    "mrr_at_k": 0.75,
+    "mean_quality": 7.5625,
+    "correct_refusal_percent": 100.0,
+    "context_chars": 591.5625,
+    "latency_s": 1.386063831249885
+  },
+  {
+    "k": 4,
+    "calls": 16,
+    "recall": 0.75,
+    "mrr": 0.8,
+    "mrr_at_k": 0.75,
+    "mean_quality": 8.0625,
+    "correct_refusal_percent": 100.0,
+    "context_chars": 1182.6875,
+    "latency_s": 1.8227898874997663
+  },
+  {
+    "k": 8,
+    "calls": 16,
+    "recall": 0.9583333333333334,
+    "mrr": 0.8,
+    "mrr_at_k": 0.8,
+    "mean_quality": 7.8125,
+    "correct_refusal_percent": 100.0,
+    "context_chars": 2357.9375,
+    "latency_s": 1.786595949999537
+  }
+]

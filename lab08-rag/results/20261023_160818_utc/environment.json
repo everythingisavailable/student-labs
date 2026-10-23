@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-23T16:08:27.674206+00:00",
+  "python": "3.12.14",
+  "os": "Windows 11",
+  "cpu": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+  "logical_processors": 8,
+  "physical_cores": 8,
+  "ram_gib": 27.28701400756836,
+  "embedding_load_s": 9.00334550000116,
+  "offline_embeddings": true,
+  "packages": {
+    "numpy": "2.5.4",
+    "torch": "2.14.1+cpu",
+    "sentence-transformers": "6.2.0",
+    "transformers": "5.20.2"
+  },
+  "seed_sent": 42,
+  "seed_reproducibility_verified": false
+}

@@ -1,0 +1,13 @@
+{
+  "reviewer": "AI assistant reading recorded answers and supplied source fragments; not independent human evaluation",
+  "criteria": {
+    "correctness": "0 substantially false; 1 partly accurate; 2 accurate against corpus, including correct acknowledgement when fact is absent",
+    "completeness": "0 does not address request; 1 partial; 2 all required answer components, or explicit missing requested fact for absent questions",
+    "grounding": "0 unsupported substantive claims; 1 mixed; 2 all substantive claims supported by supplied context, or accurate refusal",
+    "citations": "0 missing/fictitious/misleading; 1 incomplete coverage; 2 correct source mapping for all factual claims; pure refusal with no factual claims scores 2 without a citation",
+    "answerability_decision": "0 invents missing answer or refuses despite sufficient context; 1 ambiguous/partial decision; 2 answers supported part and explicitly identifies missing part, or gives justified full answer/refusal"
+  },
+  "total": "Sum of five 0-2 criteria, maximum 10. Last criterion operationalizes refusal behavior for both answerable and absent questions.",
+  "retrieval": "Recall and full-ranking MRR on 12 answerable questions only; MRR@k also saved. Four absent questions are excluded, not assigned zero retrieval quality.",
+  "correct_refusal": "For four absent questions: explicitly states insufficient information and does not invent requested phone, budget, product/version or RTO. Extra supported explanation is allowed."
+}

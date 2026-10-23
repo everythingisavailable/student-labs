@@ -1,0 +1,4 @@
+﻿k,calls,errors,recall,mrr,mrr_at_k,all_gold_found,mean_quality,mean_quality_answerable,correct_refusal_percent,context_chars,latency_s,input_tokens,invalid_label_answers,nonstandard_citation_answers
+2,16,0,0.7083333333333334,0.8,0.75,8,7.5625,7,100.0,591.5625,1.386063831249885,345.1875,0,4
+4,16,0,0.75,0.8,0.75,9,8.0625,7.583333333333333,100.0,1182.6875,1.8227898874997663,497.5,0,3
+8,16,0,0.9583333333333334,0.8,0.8,11,7.8125,7.25,100.0,2357.9375,1.786595949999537,795.75,0,2

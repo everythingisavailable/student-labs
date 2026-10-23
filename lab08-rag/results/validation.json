@@ -1,0 +1,12 @@
+{
+  "experiment_calls": 48,
+  "errors": 0,
+  "all_stop": true,
+  "context_budget_pass": true,
+  "source_trace_pass": true,
+  "lab7_corpus_and_vectors_identical": true,
+  "independent_recall_pass": true,
+  "recomputed_summary_pass": true,
+  "unit_tests": 4,
+  "visual_page_review": false
+}

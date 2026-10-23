@@ -1,0 +1,11 @@
+{
+  "corpus_source": "../lab07-semantic-search/data/corpus.jsonl",
+  "index_source": "../lab07-semantic-search/results/base_embeddings.npy",
+  "question_authorship": "AI assistant authored gold before calls; six questions preserved verbatim from Lab7",
+  "sha256": {
+    "corpus.jsonl": "88039a7ddb891373e0643e5e35372e258978e53201deda252cf6f0246257e061",
+    "questions.jsonl": "f9893cc51508745c62216e02fa763c7b8b182c388ed28ed861f6d4456d7f73ec",
+    "embeddings.npy": "39dd14adb1cf123affe66c0b6c1cc249a026dab5cea30151190fff9233e25e65",
+    "index_documents.json": "8ac241bc1662c197235dea9f3e6729b0aca87d05eb631e167213514807ed6da8"
+  }
+}
