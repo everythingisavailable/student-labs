@@ -1,0 +1,26 @@
+[
+  {
+    "scheme": "base",
+    "fragments": 40,
+    "dimension": 384,
+    "encoding_and_matrix_s": 1.187437200002023,
+    "vector_bytes": 61440,
+    "max_tokens": 69
+  },
+  {
+    "scheme": "small",
+    "fragments": 31,
+    "dimension": 384,
+    "encoding_and_matrix_s": 1.1595040999964112,
+    "vector_bytes": 47616,
+    "max_tokens": 104
+  },
+  {
+    "scheme": "large",
+    "fragments": 15,
+    "dimension": 384,
+    "encoding_and_matrix_s": 1.6067253999935929,
+    "vector_bytes": 23040,
+    "max_tokens": 239
+  }
+]

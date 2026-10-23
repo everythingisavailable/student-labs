@@ -1,0 +1,7 @@
+{
+  "annotation": "Authored by AI assistant before retrieval; not independent human ground truth",
+  "sha256": {
+    "corpus.jsonl": "88039a7ddb891373e0643e5e35372e258978e53201deda252cf6f0246257e061",
+    "queries.jsonl": "a70eba6036dd72c0772b64e817af945b23b5561de8e27913e6ec97bcf3ddaff1"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "dimension": 384,
+  "device": "cpu",
+  "normalize": true,
+  "max_seq_length": 512,
+  "threads": 4,
+  "seed": 7,
+  "top_k": [
+    1,
+    3,
+    5
+  ],
+  "repeats": 3,
+  "chunk_schemes": [
+    {
+      "name": "small",
+      "size": 400,
+      "overlap": 80
+    },
+    {
+      "name": "large",
+      "size": 1000,
+      "overlap": 200
+    }
+  ]
+}

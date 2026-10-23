@@ -1,0 +1,82 @@
+[
+  {
+    "query_id": "q01",
+    "returned": 32,
+    "restricted_returned": 0
+  },
+  {
+    "query_id": "q02",
+    "returned": 32,
+    "restricted_returned": 0
+  },
+  {
+    "query_id": "q03",
+    "returned": 32,
+    "restricted_returned": 0
+  },
+  {
+    "query_id": "q04",
+    "returned": 32,
+    "restricted_returned": 0
+  },
+  {
+    "query_id": "q05",
+    "returned": 32,
+    "restricted_returned": 0
+  },
+  {
+    "query_id": "q06",
+    "returned": 32,
+    "restricted_returned": 0
+  },
+  {
+    "query_id": "q07",
+    "returned": 32,
+    "restricted_returned": 0
+  },
+  {
+    "query_id": "q08",
+    "returned": 32,
+    "restricted_returned": 0
+  },
+  {
+    "query_id": "q09",
+    "returned": 32,
+    "restricted_returned": 0
+  },
+  {
+    "query_id": "q10",
+    "returned": 32,
+    "restricted_returned": 0
+  },
+  {
+    "query_id": "q11",
+    "returned": 32,
+    "restricted_returned": 0
+  },
+  {
+    "query_id": "q12",
+    "returned": 32,
+    "restricted_returned": 0
+  },
+  {
+    "query_id": "q13",
+    "returned": 32,
+    "restricted_returned": 0
+  },
+  {
+    "query_id": "q14",
+    "returned": 32,
+    "restricted_returned": 0
+  },
+  {
+    "query_id": "q15",
+    "returned": 32,
+    "restricted_returned": 0
+  },
+  {
+    "query_id": "q16",
+    "returned": 32,
+    "restricted_returned": 0
+  }
+]
