@@ -331,7 +331,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,

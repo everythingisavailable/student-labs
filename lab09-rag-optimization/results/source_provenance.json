@@ -3,11 +3,12 @@
     "src/evaluate.py": true,
     "src/local_api.py": true,
     "src/rag_search.py": true,
-    "configs/experiments.json": true,
+    "configs/experiments.json": false,
     "configs/system.txt": true,
     "data/corpus.jsonl": true,
     "data/provenance.json": true,
     "data/questions.jsonl": true
   },
-  "transport_note": "Current local_api.py adds parallel_tool_calls=false when tools are present. Lab9 requests use no tools; saved source_snapshot retains the earlier API client. Authoritative request bodies are in generation.jsonl."
+  "transport_note": "Current local_api.py adds parallel_tool_calls=false when tools are present. Lab9 requests use no tools; saved source_snapshot retains the earlier API client. Authoritative request bodies are in generation.jsonl.",
+  "editorial_note": "See editorial_changes.json for non-experimental metadata revisions."
 }

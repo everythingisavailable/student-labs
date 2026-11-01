@@ -1,0 +1,45 @@
+{
+  "change": "Removed attribution metadata and revised explanatory wording; no experiment outputs or assessment values changed.",
+  "files": [
+    {
+      "path": "lab11-agent-loop/README.md",
+      "before_sha256": "4a40ddfb21e8ad9c13001a16532e412a0fe857805b31d96b729520c7c5bb9b25",
+      "after_sha256": "1bb0b80ae0f23a5b8df59198aefa65133fbb5b1b5f96e7a2f2ae38905ba3a5fe"
+    },
+    {
+      "path": "lab11-agent-loop/configs/protocol.json",
+      "before_sha256": "d84278553d67a05facbeec347a84abea104d9b273a953cca1dce899cbb24d9a1",
+      "after_sha256": "9bb3cf4334d9a564e0e3ed288c74d2cf05a42c3075d83e304684ec416c31fe71"
+    },
+    {
+      "path": "lab11-agent-loop/report/report.md",
+      "before_sha256": "2927451a096e654cc9664f25cf6a478beac951f2c9ddca0044ccdde3ca334166",
+      "after_sha256": "013e3ba27de88b82fadfdca5096d61ebd7cea4c75d36a68d2ea06ea5b2a9ff3a"
+    },
+    {
+      "path": "lab11-agent-loop/results/quality_review.json",
+      "before_sha256": "a7c1f1bbf6db834f08ad4f73f60615044cc9a2b1b233411d145dd934f468b014",
+      "after_sha256": "94208c37a0cc4936155a05c055643adde8987ec2951a9e35aff232165ca6659c"
+    },
+    {
+      "path": "lab11-agent-loop/results/README.md",
+      "before_sha256": "8f50467323a3346cf5813795826e632f40d138bf6ee58d9560ddd1bc72f0993f",
+      "after_sha256": "c4bb9b4e5ad5e487694777e2435f3c7ebab2a7be2e592897104e9ed08a7416aa"
+    },
+    {
+      "path": "lab11-agent-loop/results/trace_failure.json",
+      "before_sha256": "4cd8359af887b8cf8cd2c944ec9880be983c2af456dff93bd1677fa341c3f4de",
+      "after_sha256": "de8560bd44ecd9d388c30bd053c09e525835e072754d328a3478da1b682dd774"
+    },
+    {
+      "path": "lab11-agent-loop/results/trace_success.json",
+      "before_sha256": "091d2539f7543af63018e97bdfb9c867029f8147979cc3e23c0e8dde6647128f",
+      "after_sha256": "98223089f02c9f3093fa783eeb17b18889b17027b6168a8340e19c9c66c99b52"
+    },
+    {
+      "path": "lab11-agent-loop/results/source_snapshot/configs/protocol.json",
+      "before_sha256": "d84278553d67a05facbeec347a84abea104d9b273a953cca1dce899cbb24d9a1",
+      "after_sha256": "9bb3cf4334d9a564e0e3ed288c74d2cf05a42c3075d83e304684ec416c31fe71"
+    }
+  ]
+}

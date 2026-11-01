@@ -500,7 +500,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "max_rounds": 2,
     "task_success": false,
     "sequential_chain": false,

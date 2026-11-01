@@ -1,4 +1,4 @@
-"""Rebuild quality aggregates from saved assistant reviews, not from keyword grading."""
+"""Rebuild quality aggregates from saved reviews, not from keyword grading."""
 from pathlib import Path
 import json,csv,hashlib,statistics
 P=Path(__file__).resolve().parents[1]

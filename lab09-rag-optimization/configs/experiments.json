@@ -163,7 +163,6 @@
   ],
   "hypothesis": "Гибридный поиск улучшит извлечение точных терминов RPO, RTO, TLS, VPN; эффект может отсутствовать на малом корпусе.",
   "reranker": "deterministic feature scorer v1, not neural: 0.65 dense cosine + 0.35 char TF-IDF cosine; same dense top12 candidates",
-  "reviewer": "AI assistant; not independent human grading",
   "criteria": "correctness 0/1/2, grounded yes/no, citation supports claim yes/no; refusal only for 5 absent questions; record evidence quote and reason; choose config after retrieval, report exploratory selection bias",
   "reasoning_effort": "none",
   "parallel": 1,

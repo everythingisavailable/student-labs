@@ -35,7 +35,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "max_rounds": 2,
     "task_success": false,
     "sequential_chain": false,
@@ -108,7 +107,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "max_rounds": 6,
     "task_success": false,
     "sequential_chain": true,
@@ -150,7 +148,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "max_rounds": 2,
     "task_success": false,
     "sequential_chain": false,
@@ -223,7 +220,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "max_rounds": 6,
     "task_success": true,
     "sequential_chain": true,
@@ -249,7 +245,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "max_rounds": 2,
     "task_success": true,
     "sequential_chain": null,
@@ -275,7 +270,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "max_rounds": 6,
     "task_success": true,
     "sequential_chain": null,
@@ -317,7 +311,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "max_rounds": 2,
     "task_success": false,
     "sequential_chain": false,
@@ -390,7 +383,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "max_rounds": 6,
     "task_success": true,
     "sequential_chain": true,
@@ -432,7 +424,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "max_rounds": 2,
     "task_success": false,
     "sequential_chain": false,
@@ -505,7 +496,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "max_rounds": 6,
     "task_success": true,
     "sequential_chain": true,
@@ -531,7 +521,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "max_rounds": 2,
     "task_success": true,
     "sequential_chain": null,
@@ -557,7 +546,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "max_rounds": 6,
     "task_success": true,
     "sequential_chain": null,
@@ -599,7 +587,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "max_rounds": 2,
     "task_success": false,
     "sequential_chain": false,
@@ -672,7 +659,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "max_rounds": 6,
     "task_success": true,
     "sequential_chain": true,
@@ -714,7 +700,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "max_rounds": 2,
     "task_success": false,
     "sequential_chain": false,
@@ -787,7 +772,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "max_rounds": 6,
     "task_success": true,
     "sequential_chain": true,
@@ -813,7 +797,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "max_rounds": 2,
     "task_success": true,
     "sequential_chain": null,
@@ -839,7 +822,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "max_rounds": 6,
     "task_success": true,
     "sequential_chain": null,

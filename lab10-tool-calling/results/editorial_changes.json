@@ -1,0 +1,45 @@
+{
+  "change": "Removed attribution metadata and revised explanatory wording; no experiment outputs or assessment values changed.",
+  "files": [
+    {
+      "path": "lab10-tool-calling/README.md",
+      "before_sha256": "aaf80fa6ed2a8967f60fa7d120694e6f9bcc38a3e6afde198c44f0f5997e184a",
+      "after_sha256": "3e03398bdd91d7a0b20deeb7b64f23a0de8c1c1640d24291680cbf1fbb3a143a"
+    },
+    {
+      "path": "lab10-tool-calling/configs/protocol.json",
+      "before_sha256": "295605bb2c48e8b19b16f75d11b5b5814462de96c965544f4092658db1753ee2",
+      "after_sha256": "c5e12820dad6878f76f3d8d8155f58d5c3b7570206b61cef06a3444d6f6b690c"
+    },
+    {
+      "path": "lab10-tool-calling/report/report.md",
+      "before_sha256": "b8262a6246028b4bcfddd5b17c89778ad362e107fbf574d22a14787cabdfa720",
+      "after_sha256": "aa8951980ef3a856fc72eaf05e3ce0215ee1a3849dae90908a38d2a4d571ed87"
+    },
+    {
+      "path": "lab10-tool-calling/results/quality_review.json",
+      "before_sha256": "e0f936de8ab9ba58822b57bc62a1d3537e348a500e7bad17d032f0f13387ca1a",
+      "after_sha256": "b16adbc9ac7104b92abf8d790540b9abf4ff87835df5e004e79cbda4da41545c"
+    },
+    {
+      "path": "lab10-tool-calling/results/README.md",
+      "before_sha256": "8f50467323a3346cf5813795826e632f40d138bf6ee58d9560ddd1bc72f0993f",
+      "after_sha256": "c4bb9b4e5ad5e487694777e2435f3c7ebab2a7be2e592897104e9ed08a7416aa"
+    },
+    {
+      "path": "lab10-tool-calling/results/trace_failure.json",
+      "before_sha256": "525ea301abd9504eb0ff31c6d8787545425e1bd6e848e88188536fcbe3779277",
+      "after_sha256": "b516ca9ab399f42a51797cc8ca2b95c50b62be02cf3427ccc060f399a2c0fb5b"
+    },
+    {
+      "path": "lab10-tool-calling/results/trace_success.json",
+      "before_sha256": "dc228221a88bf0287ca4191e9f3ee3efdc2086b4d59df51fb4490b29467fc9ea",
+      "after_sha256": "e538526afb203f69bee06e364c495ec9e9688e0125cdf5677cc0b1c3cd4d34df"
+    },
+    {
+      "path": "lab10-tool-calling/results/source_snapshot/configs/protocol.json",
+      "before_sha256": "295605bb2c48e8b19b16f75d11b5b5814462de96c965544f4092658db1753ee2",
+      "after_sha256": "c5e12820dad6878f76f3d8d8155f58d5c3b7570206b61cef06a3444d6f6b690c"
+    }
+  ]
+}

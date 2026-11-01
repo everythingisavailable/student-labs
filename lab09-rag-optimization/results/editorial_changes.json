@@ -1,0 +1,40 @@
+{
+  "change": "Removed attribution metadata and revised explanatory wording; no experiment outputs or assessment values changed.",
+  "files": [
+    {
+      "path": "lab09-rag-optimization/README.md",
+      "before_sha256": "5a99b7ddc629e1a14780b018f4d8fc3332b6e05021f645af5995fe82f612ef24",
+      "after_sha256": "1eab8c52b582091f878ae60a2f73e942280b5776cc2c02097ae59437d6dc6fb1"
+    },
+    {
+      "path": "lab09-rag-optimization/configs/experiments.json",
+      "before_sha256": "ad1f8c61dc5672665c318323abaa92469ba9b4593e5c5e92d592633c17ded718",
+      "after_sha256": "36aa8dec3ad54123230e22f6d030f01b080b07064eb692c98b838afa6ffc381a"
+    },
+    {
+      "path": "lab09-rag-optimization/report/report.md",
+      "before_sha256": "7571bcc1879827555e8e44fcb2e164f710cd587a2b5c46507cadaab2526ef936",
+      "after_sha256": "3765196eb40a1257e6d739a33aaf1e5523a00c76317fdf66165e37404b8766d5"
+    },
+    {
+      "path": "lab09-rag-optimization/results/answer_review.csv",
+      "before_sha256": "fda7bf72e8efddb99f0a7706fcf4a93c9aa3e35d2a73c6b5b65b904b370805c5",
+      "after_sha256": "83b14e5d8ba87d99d3f2f207839a89aabce83614a480391aeb60026f87cfe7f9"
+    },
+    {
+      "path": "lab09-rag-optimization/results/answer_review.json",
+      "before_sha256": "1a306a74249674d15ab31434abd8a9b62ba9b059e7900e02648573c798e0a767",
+      "after_sha256": "9585d641ced982c06cb2c64c94dbb52bbcbcc5ad905fd201786828e2564dd00a"
+    },
+    {
+      "path": "lab09-rag-optimization/src/summarize.py",
+      "before_sha256": "a0fe884d094146163cd24bb2c075222a5334d88853c3bb071d9bafc5d7efdec1",
+      "after_sha256": "6985981c280d39b025dddf84675ec8809c095be783ac802d0b0eb5708918ef0d"
+    },
+    {
+      "path": "lab09-rag-optimization/results/source_snapshot/configs/experiments.json",
+      "before_sha256": "ad1f8c61dc5672665c318323abaa92469ba9b4593e5c5e92d592633c17ded718",
+      "after_sha256": "36aa8dec3ad54123230e22f6d030f01b080b07064eb692c98b838afa6ffc381a"
+    }
+  ]
+}

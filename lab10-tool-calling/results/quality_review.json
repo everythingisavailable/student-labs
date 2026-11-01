@@ -9,7 +9,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -41,7 +40,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -58,7 +56,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -87,7 +84,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -104,7 +100,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -153,7 +148,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -170,7 +164,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": true,
     "selection_correct": null,
@@ -187,7 +180,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -204,7 +196,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -231,7 +222,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -248,7 +238,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -265,7 +254,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -282,7 +270,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": true,
     "selection_correct": null,
@@ -307,7 +294,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -324,7 +310,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -356,7 +341,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": false,
     "selection_correct": false,
@@ -373,7 +357,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -402,7 +385,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -419,7 +401,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -448,7 +429,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -465,7 +445,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -494,7 +473,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -511,7 +489,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -540,7 +517,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -557,7 +533,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -589,7 +564,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -606,7 +580,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -635,7 +608,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -652,7 +624,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -701,7 +672,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -718,7 +688,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": true,
     "selection_correct": null,
@@ -735,7 +704,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -752,7 +720,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -779,7 +746,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -796,7 +762,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -813,7 +778,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -830,7 +794,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": true,
     "selection_correct": null,
@@ -847,7 +810,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -864,7 +826,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -896,7 +857,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": false,
     "selection_correct": false,
@@ -913,7 +873,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -942,7 +901,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -959,7 +917,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -988,7 +945,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -1005,7 +961,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -1034,7 +989,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -1051,7 +1005,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -1080,7 +1033,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -1097,7 +1049,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -1129,7 +1080,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -1146,7 +1096,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -1175,7 +1124,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -1192,7 +1140,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -1241,7 +1188,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -1258,7 +1204,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": true,
     "selection_correct": null,
@@ -1275,7 +1220,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -1292,7 +1236,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -1319,7 +1262,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -1336,7 +1278,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -1353,7 +1294,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -1370,7 +1310,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": true,
     "selection_correct": null,
@@ -1387,7 +1326,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -1404,7 +1342,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -1436,7 +1373,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": false,
     "selection_correct": false,
@@ -1453,7 +1389,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -1482,7 +1417,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -1499,7 +1433,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -1528,7 +1461,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -1545,7 +1477,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -1574,7 +1505,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
@@ -1591,7 +1521,6 @@
     "unsafe_attempts": 0,
     "unsafe_rejected": 0,
     "evidence": [],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "without_tools",
     "task_success": false,
     "selection_correct": null,
@@ -1620,7 +1549,6 @@
         }
       }
     ],
-    "reviewer": "AI assistant; no independent human review",
     "mode": "with_tools",
     "task_success": true,
     "selection_correct": true,
