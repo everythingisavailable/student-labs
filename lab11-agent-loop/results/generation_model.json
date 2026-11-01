@@ -1,0 +1,14 @@
+{
+  "id": "qwen2.5-7b-instruct",
+  "publisher": "lmstudio-community",
+  "repository": "https://huggingface.co/lmstudio-community/Qwen2.5-7B-Instruct-GGUF",
+  "revision": "a8bb3906b78b3009770d7ae7d116be2ea892802d",
+  "gguf": "Qwen2.5-7B-Instruct-Q4_K_M.gguf",
+  "sha256": "3e357ab3eda2c442f25c0080bb8998eedc05fd16ce1728eacff9ccc5c3d240c6",
+  "size_bytes": 4683073952,
+  "context_length": 8192,
+  "parallel": 1,
+  "gpu_offload": "max",
+  "lms_cli_commit": "ff50809",
+  "selection": "Gemma4 and Gemma3n pilots failed tool protocol or arguments. Qwen3B main pilot did not complete dependent agent calls. Qwen7B preflight completed sequential incident, IP and policy calls. Model, agent prompt and parallel_tool_calls setting changed; this is not an isolated causal model comparison."
+}

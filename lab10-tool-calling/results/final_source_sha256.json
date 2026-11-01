@@ -1,0 +1,9 @@
+{
+  "src/lab10_demo.py": "31abe0634fd3046238c646e4fbaef467eea98339feae2b53c6954e8a92854858",
+  "src/soc_tools.py": "df0486e41faca92947234ca16cc9aad577fe4eda83900eec2cc8c9625b998d8d",
+  "src/summarize.py": "2ad489a9e20f67e906446d074cb67dc9a7b71c9aaa8b09f8a8c2f144571f2a1f",
+  "configs/cases.json": "66d94240385ac64db74abb6e3ebe31b315b652afb2df471db6df6b2a635fc88f",
+  "configs/protocol.json": "295605bb2c48e8b19b16f75d11b5b5814462de96c965544f4092658db1753ee2",
+  "data/soc.json": "352fd9f570e1e8bed6cd81831ffd491b7b2585b875257eaa7aba6438fa8cfb81",
+  "tests/test_dispatch.py": "d2f445fe1c4e60203d38a0aea7d1045005fbc359485c4b128d2d22c85fae9aee"
+}

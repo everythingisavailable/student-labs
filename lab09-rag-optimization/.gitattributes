@@ -1,0 +1,2 @@
+# Preserve exact bytes and accept CRLF for reproducibility checksums.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

@@ -1,0 +1,21 @@
+test_T10_injection (test_agent.AgentTests.test_T10_injection) ... ok
+test_T1_demo (test_agent.AgentTests.test_T1_demo) ... ok
+test_T2_other_incident (test_agent.AgentTests.test_T2_other_incident) ... ok
+test_T3_missing (test_agent.AgentTests.test_T3_missing) ... ok
+test_T4_forbidden (test_agent.AgentTests.test_T4_forbidden) ... ok
+test_T5_bad_ip (test_agent.AgentTests.test_T5_bad_ip) ... ok
+test_T6_fields (test_agent.AgentTests.test_T6_fields) ... ok
+test_T7_repeated (test_agent.AgentTests.test_T7_repeated) ... ok
+test_T8_round_limit (test_agent.AgentTests.test_T8_round_limit) ... ok
+test_T9_call_limit (test_agent.AgentTests.test_T9_call_limit) ... ok
+test_api_error (test_agent.AgentTests.test_api_error) ... ok
+test_duplicate_ids (test_agent.AgentTests.test_duplicate_ids) ... ok
+test_empty_final (test_agent.AgentTests.test_empty_final) ... ok
+test_malformed_call (test_agent.AgentTests.test_malformed_call) ... ok
+test_timeout (test_agent.AgentTests.test_timeout) ... ok
+test_tool_failure (test_agent.AgentTests.test_tool_failure) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.002s
+
+OK

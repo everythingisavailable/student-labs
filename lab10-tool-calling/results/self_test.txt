@@ -1,0 +1,18 @@
+test_access (test_dispatch.DispatchTests.test_access) ... ok
+test_alert_four_positive (test_dispatch.DispatchTests.test_alert_four_positive) ... ok
+test_alert_two_negative (test_dispatch.DispatchTests.test_alert_two_negative) ... ok
+test_forbidden (test_dispatch.DispatchTests.test_forbidden) ... ok
+test_incident (test_dispatch.DispatchTests.test_incident) ... ok
+test_injection_is_data (test_dispatch.DispatchTests.test_injection_is_data) ... ok
+test_invalid_arguments (test_dispatch.DispatchTests.test_invalid_arguments) ... ok
+test_ip (test_dispatch.DispatchTests.test_ip) ... ok
+test_malformed_call (test_dispatch.DispatchTests.test_malformed_call) ... ok
+test_pair_ids_and_budget (test_dispatch.DispatchTests.test_pair_ids_and_budget) ... ok
+test_schema (test_dispatch.DispatchTests.test_schema) ... ok
+test_success (test_dispatch.DispatchTests.test_success) ... ok
+test_unknown (test_dispatch.DispatchTests.test_unknown) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.001s
+
+OK

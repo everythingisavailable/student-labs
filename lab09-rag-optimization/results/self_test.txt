@@ -1,0 +1,12 @@
+test_absent_excluded (test_retrieval.Tests.test_absent_excluded) ... ok
+test_acl_and_budget (test_retrieval.Tests.test_acl_and_budget) ...
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|в–€в–€в–€в–€в–€в–€в–€в–€в–€в–€| 199/199 [00:00<00:00, 3974.11it/s]
+ok
+test_chunk_coverage (test_retrieval.Tests.test_chunk_coverage) ... ok
+test_document_metrics_deduplicate (test_retrieval.Tests.test_document_metrics_deduplicate) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 24.074s
+
+OK

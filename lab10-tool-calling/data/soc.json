@@ -1,0 +1,54 @@
+{
+  "incidents": {
+    "INC-101": {
+      "id": "INC-101",
+      "severity": "high",
+      "ip": "203.0.113.42",
+      "event": "Повторные неудачные входы и последующий вход с нового адреса",
+      "asset": "учебный портал",
+      "confirmed_compromise": false
+    },
+    "INC-102": {
+      "id": "INC-102",
+      "severity": "low",
+      "ip": "198.51.100.10",
+      "event": "Единичная ошибка аутентификации",
+      "asset": "учебная почта",
+      "confirmed_compromise": false
+    }
+  },
+  "ips": {
+    "203.0.113.42": {
+      "ip": "203.0.113.42",
+      "risk": "high",
+      "reason": "Условная отметка тестового набора"
+    },
+    "198.51.100.10": {
+      "ip": "198.51.100.10",
+      "risk": "low",
+      "reason": "Условная отметка тестового набора"
+    }
+  },
+  "alerts": {
+    "AL-201": {
+      "id": "AL-201",
+      "incident_id": "INC-101",
+      "state": "new"
+    },
+    "AL-202": {
+      "id": "AL-202",
+      "incident_id": "INC-101",
+      "state": "triaged"
+    },
+    "AL-203": {
+      "id": "AL-203",
+      "incident_id": "INC-102",
+      "state": "review"
+    },
+    "AL-204": {
+      "id": "AL-204",
+      "incident_id": "INC-102",
+      "state": "closed"
+    }
+  }
+}

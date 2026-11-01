@@ -1,0 +1,171 @@
+{
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "max_seq_length": 512,
+  "threads": 4,
+  "role": "admins",
+  "llm_model": "gemma-4-12b-coder-fable5-composer2.5-v1",
+  "temperature": 0.2,
+  "max_tokens": 650,
+  "seeds": [
+    42,
+    43
+  ],
+  "retrieval_repeats": 3,
+  "configs": [
+    {
+      "id": "dense_300_100_k4",
+      "chunk_size": 300,
+      "overlap": 100,
+      "top_k": 4,
+      "mode": "dense",
+      "candidate_n": 12,
+      "context_budget_chars": 10000
+    },
+    {
+      "id": "dense_600_100_k4",
+      "chunk_size": 600,
+      "overlap": 100,
+      "top_k": 4,
+      "mode": "dense",
+      "candidate_n": 12,
+      "context_budget_chars": 10000
+    },
+    {
+      "id": "dense_1200_100_k4",
+      "chunk_size": 1200,
+      "overlap": 100,
+      "top_k": 4,
+      "mode": "dense",
+      "candidate_n": 12,
+      "context_budget_chars": 10000
+    },
+    {
+      "id": "dense_600_0_k4",
+      "chunk_size": 600,
+      "overlap": 0,
+      "top_k": 4,
+      "mode": "dense",
+      "candidate_n": 12,
+      "context_budget_chars": 10000
+    },
+    {
+      "id": "dense_600_200_k4",
+      "chunk_size": 600,
+      "overlap": 200,
+      "top_k": 4,
+      "mode": "dense",
+      "candidate_n": 12,
+      "context_budget_chars": 10000
+    },
+    {
+      "id": "dense_600_100_k2",
+      "chunk_size": 600,
+      "overlap": 100,
+      "top_k": 2,
+      "mode": "dense",
+      "candidate_n": 12,
+      "context_budget_chars": 10000
+    },
+    {
+      "id": "dense_600_100_k8",
+      "chunk_size": 600,
+      "overlap": 100,
+      "top_k": 8,
+      "mode": "dense",
+      "candidate_n": 12,
+      "context_budget_chars": 10000
+    },
+    {
+      "id": "hybrid_600_100_k4",
+      "chunk_size": 600,
+      "overlap": 100,
+      "top_k": 4,
+      "mode": "hybrid",
+      "candidate_n": 12,
+      "context_budget_chars": 10000
+    },
+    {
+      "id": "lexical_600_100_k4",
+      "chunk_size": 600,
+      "overlap": 100,
+      "top_k": 4,
+      "mode": "lexical",
+      "candidate_n": 12,
+      "context_budget_chars": 10000
+    },
+    {
+      "id": "rerank_600_100_k4",
+      "chunk_size": 600,
+      "overlap": 100,
+      "top_k": 4,
+      "mode": "rerank",
+      "candidate_n": 12,
+      "context_budget_chars": 10000
+    },
+    {
+      "id": "budget_dense_300",
+      "chunk_size": 300,
+      "overlap": 100,
+      "top_k": 12,
+      "mode": "dense",
+      "candidate_n": 12,
+      "context_budget_chars": 2200
+    },
+    {
+      "id": "budget_dense_600",
+      "chunk_size": 600,
+      "overlap": 100,
+      "top_k": 12,
+      "mode": "dense",
+      "candidate_n": 12,
+      "context_budget_chars": 2200
+    },
+    {
+      "id": "budget_dense_1200",
+      "chunk_size": 1200,
+      "overlap": 100,
+      "top_k": 12,
+      "mode": "dense",
+      "candidate_n": 12,
+      "context_budget_chars": 2200
+    }
+  ],
+  "generation_config_ids": [
+    "dense_300_100_k4",
+    "dense_600_100_k4",
+    "dense_1200_100_k4",
+    "dense_600_100_k2",
+    "dense_600_100_k8",
+    "hybrid_600_100_k4"
+  ],
+  "generation_question_ids": [
+    "q01",
+    "q02",
+    "q03",
+    "q04",
+    "q05",
+    "q06",
+    "q07",
+    "q08",
+    "q09",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14",
+    "q15",
+    "q16",
+    "q17",
+    "q18",
+    "q19",
+    "q20"
+  ],
+  "hypothesis": "Гибридный поиск улучшит извлечение точных терминов RPO, RTO, TLS, VPN; эффект может отсутствовать на малом корпусе.",
+  "reranker": "deterministic feature scorer v1, not neural: 0.65 dense cosine + 0.35 char TF-IDF cosine; same dense top12 candidates",
+  "reviewer": "AI assistant; not independent human grading",
+  "criteria": "correctness 0/1/2, grounded yes/no, citation supports claim yes/no; refusal only for 5 absent questions; record evidence quote and reason; choose config after retrieval, report exploratory selection bias",
+  "reasoning_effort": "none",
+  "parallel": 1,
+  "context_length": 8192
+}

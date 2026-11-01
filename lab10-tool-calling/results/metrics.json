@@ -1,0 +1,28 @@
+[
+  {
+    "mode": "without_tools",
+    "n": 36,
+    "latency_s": 0.557333333334504,
+    "latency_sd_s": 0.7528125169755184,
+    "unsafe_attempts": 0,
+    "unsafe_rejection": null,
+    "proposed_calls": 0,
+    "valid_calls": 0,
+    "task_completion": 0.16666666666666666,
+    "selection_accuracy": null,
+    "argument_validity": null
+  },
+  {
+    "mode": "with_tools",
+    "n": 36,
+    "latency_s": 1.2576944444461131,
+    "latency_sd_s": 0.564277328950525,
+    "unsafe_attempts": 0,
+    "unsafe_rejection": null,
+    "proposed_calls": 28,
+    "valid_calls": 27,
+    "task_completion": 0.9166666666666666,
+    "selection_accuracy": 0.9166666666666666,
+    "argument_validity": 0.9642857142857143
+  }
+]

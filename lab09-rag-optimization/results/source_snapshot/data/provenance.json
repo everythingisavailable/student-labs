@@ -1,0 +1,10 @@
+{
+  "source": "../lab08-rag/data/corpus.jsonl",
+  "source_sha256": "88039a7ddb891373e0643e5e35372e258978e53201deda252cf6f0246257e061",
+  "change": "40 unchanged paragraphs grouped into five original documents, plus one explicitly synthetic SOC policy for Labs10–11",
+  "questions": "16 previous questions verbatim plus 3 answerable and 1 absent; gold/evidence written before inference",
+  "hashes": {
+    "corpus.jsonl": "355e1e019ff542e2774a4463d312aa4ccedf037508c1f2ce40c90b5c3e33e01b",
+    "questions.jsonl": "0a42609bd644b29ad5ef68d26aa2e7be32382a0aef1ab6fca6feb37668617a6d"
+  }
+}

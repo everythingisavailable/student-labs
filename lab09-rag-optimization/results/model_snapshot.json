@@ -1,0 +1,56 @@
+{
+  "data": [
+    {
+      "id": "gemma-4-12b-coder-fable5-composer2.5-v1",
+      "object": "model",
+      "type": "llm",
+      "publisher": "yuxinlu1",
+      "arch": "gemma4",
+      "compatibility_type": "gguf",
+      "quantization": "Q3_K_M",
+      "state": "loaded",
+      "max_context_length": 262144,
+      "loaded_context_length": 8192,
+      "capabilities": [
+        "tool_use"
+      ]
+    },
+    {
+      "id": "google/gemma-3n-e4b",
+      "object": "model",
+      "type": "llm",
+      "publisher": "google",
+      "arch": "gemma3n",
+      "compatibility_type": "gguf",
+      "quantization": "Q4_K_M",
+      "state": "not-loaded",
+      "max_context_length": 32768
+    },
+    {
+      "id": "qwen3.6-35b-a3b-uncensored-hauhaucs-aggressive",
+      "object": "model",
+      "type": "vlm",
+      "publisher": "HauhauCS",
+      "arch": "qwen35moe",
+      "compatibility_type": "gguf",
+      "quantization": "Q4_K_M",
+      "state": "not-loaded",
+      "max_context_length": 262144,
+      "capabilities": [
+        "tool_use"
+      ]
+    },
+    {
+      "id": "text-embedding-nomic-embed-text-v1.5",
+      "object": "model",
+      "type": "embeddings",
+      "publisher": "nomic-ai",
+      "arch": "nomic-bert",
+      "compatibility_type": "gguf",
+      "quantization": "Q4_K_M",
+      "state": "not-loaded",
+      "max_context_length": 2048
+    }
+  ],
+  "object": "list"
+}

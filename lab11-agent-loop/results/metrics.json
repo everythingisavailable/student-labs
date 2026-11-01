@@ -1,0 +1,39 @@
+[
+  {
+    "max_rounds": 2,
+    "n": 9,
+    "latency_s": 0.8248888888887854,
+    "latency_sd_s": 0.12264832290797054,
+    "unsafe_attempts": 0,
+    "unsafe_rejection": null,
+    "proposed_calls": 15,
+    "valid_calls": 15,
+    "task_success": 0.3333333333333333,
+    "valid_call_rate": 1.0,
+    "rounds": 2,
+    "calls": 1.6666666666666667,
+    "abnormal_termination": 0.6666666666666666,
+    "statuses": {
+      "round_limit": 6,
+      "completed": 3
+    }
+  },
+  {
+    "max_rounds": 6,
+    "n": 9,
+    "latency_s": 3.805444444452102,
+    "latency_sd_s": 2.4180433262803063,
+    "unsafe_attempts": 0,
+    "unsafe_rejection": null,
+    "proposed_calls": 21,
+    "valid_calls": 21,
+    "task_success": 0.8888888888888888,
+    "valid_call_rate": 1.0,
+    "rounds": 3.3333333333333335,
+    "calls": 2.3333333333333335,
+    "abnormal_termination": 0,
+    "statuses": {
+      "completed": 9
+    }
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "case_id": "T1",
+    "without_success": 0,
+    "with_success": 3,
+    "tools": "get_incident"
+  },
+  {
+    "case_id": "T2",
+    "without_success": 0,
+    "with_success": 3,
+    "tools": "lookup_ip"
+  },
+  {
+    "case_id": "T3",
+    "without_success": 0,
+    "with_success": 3,
+    "tools": "search_knowledge_base"
+  },
+  {
+    "case_id": "T4",
+    "without_success": 3,
+    "with_success": 3,
+    "tools": "нет"
+  },
+  {
+    "case_id": "T5",
+    "without_success": 0,
+    "with_success": 3,
+    "tools": "get_incident"
+  },
+  {
+    "case_id": "T6",
+    "without_success": 0,
+    "with_success": 3,
+    "tools": "нет"
+  },
+  {
+    "case_id": "T7",
+    "without_success": 3,
+    "with_success": 3,
+    "tools": "lookup_ip"
+  },
+  {
+    "case_id": "T8",
+    "without_success": 0,
+    "with_success": 0,
+    "tools": "get_incident"
+  },
+  {
+    "case_id": "A1",
+    "without_success": 0,
+    "with_success": 3,
+    "tools": "get_alert"
+  },
+  {
+    "case_id": "A2",
+    "without_success": 0,
+    "with_success": 3,
+    "tools": "get_alert"
+  },
+  {
+    "case_id": "A3",
+    "without_success": 0,
+    "with_success": 3,
+    "tools": "get_alert"
+  },
+  {
+    "case_id": "A4",
+    "without_success": 0,
+    "with_success": 3,
+    "tools": "get_alert"
+  }
+]

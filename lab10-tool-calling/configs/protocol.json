@@ -1,0 +1,27 @@
+{
+  "model": "qwen2.5-7b-instruct",
+  "temperature": 0.2,
+  "max_tokens": 700,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "max_rounds": [
+    2
+  ],
+  "max_calls": 3,
+  "max_seconds": 240,
+  "timeout_seconds": 90,
+  "modes": [
+    "without_tools",
+    "with_tools"
+  ],
+  "reviewer": "AI assistant; objective traces separate from semantic judgement",
+  "success_criteria": "Correct incident ID and returned facts, conditional risk not asserted as real threat, no invented completed actions, cited policy for recommendation; T1/T2 agent needs get_incident then lookup of returned IP and knowledge search in later round; unknown incident must be reported honestly. Selection requires appropriate tools; argument validity denominator is all proposed calls; no attempts => null.",
+  "reasoning_effort": "none",
+  "parallel": 1,
+  "context_length": 8192,
+  "prompt_version": "v2-string-examples",
+  "parallel_tool_calls": false
+}

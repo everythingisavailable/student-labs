@@ -1,0 +1,10 @@
+{
+  "src/lab10_demo.py": "31abe0634fd3046238c646e4fbaef467eea98339feae2b53c6954e8a92854858",
+  "src/soc_tools.py": "df0486e41faca92947234ca16cc9aad577fe4eda83900eec2cc8c9625b998d8d",
+  "configs/cases.json": "66d94240385ac64db74abb6e3ebe31b315b652afb2df471db6df6b2a635fc88f",
+  "configs/protocol.json": "295605bb2c48e8b19b16f75d11b5b5814462de96c965544f4092658db1753ee2",
+  "data/soc.json": "352fd9f570e1e8bed6cd81831ffd491b7b2585b875257eaa7aba6438fa8cfb81",
+  "lab09-rag-optimization\\src\\local_api.py": "f77dc50dd03209508c3d606419e4abcb9c7c9fba985dd86ebe3cab7ce9160074",
+  "lab09-rag-optimization\\src\\rag_search.py": "646fae55a16f5e89e0b145b9ca22351cbbe0d2fe4be3d8f828d0031e09efdecf",
+  "lab10-tool-calling\\src\\soc_tools.py": "df0486e41faca92947234ca16cc9aad577fe4eda83900eec2cc8c9625b998d8d"
+}

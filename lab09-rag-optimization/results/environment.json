@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "max_seq_length": 512,
+  "corpus_sha256": "355e1e019ff542e2774a4463d312aa4ccedf037508c1f2ce40c90b5c3e33e01b",
+  "questions_sha256": "0a42609bd644b29ad5ef68d26aa2e7be32382a0aef1ab6fca6feb37668617a6d"
+}

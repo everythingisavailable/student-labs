@@ -1,0 +1,13 @@
+{
+  "id": "gemma-4-12b-coder-fable5-composer2.5-v1",
+  "publisher": "yuxinlu1",
+  "gguf": "gemma4-coding-Q3_K_M.gguf",
+  "sha256": "b2d2ca4e1fc592a7ba77225032224938b9f159ef6431f57e1db1b5e612f50b54",
+  "quantization": "Q3_K_M",
+  "context_length": 8192,
+  "parallel": 1,
+  "gpu_offload": "max",
+  "reasoning_effort": "none",
+  "lms_cli_commit": "ff50809",
+  "setup_notes": "Two 180-second pilot requests timed out with default parallel=4 and reasoning unspecified. Pilot results are excluded. Reloaded parallel=1 and disabled reasoning before all measured runs. This is a community model, not the original model used in Lab8."
+}
